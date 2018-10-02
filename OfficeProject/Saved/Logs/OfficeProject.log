@@ -1,4 +1,4 @@
-﻿Log file open, 10/02/18 11:30:07
+﻿Log file open, 10/02/18 14:21:11
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: OfficeProject
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.269365
+LogStats: Stats thread started at 0.281025
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.165s to configure plugins.
+LogStreaming: Display: Took  0.551s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -147,643 +147,412 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.002s to delete old logs.
+LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.10.02-15.30.07:372][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.02-15.30.07:372][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.10.02-15.30.07:423][  0]LogHAL: Display: Platform has ~ 24 GB [25715929088 / 34359738368 / 24], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.10.02-15.30.07:423][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.10.02-15.30.07:423][  0]LogInit: Going up to parent DeviceProfile []
-[2018.10.02-15.30.07:423][  0]LogInit: Computer: DESKTOP-VBFITEQ
-[2018.10.02-15.30.07:423][  0]LogInit: User: Nate
-[2018.10.02-15.30.07:423][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.10.02-15.30.07:423][  0]LogInit: High frequency timer resolution =3.906271 MHz
-[2018.10.02-15.30.07:424][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
-[2018.10.02-15.30.07:424][  0]LogMemory: Platform Memory Stats for Windows
-[2018.10.02-15.30.07:424][  0]LogMemory: Process Physical Memory: 101.05 MB used, 101.05 MB peak
-[2018.10.02-15.30.07:424][  0]LogMemory: Process Virtual Memory: 89.38 MB used, 89.38 MB peak
-[2018.10.02-15.30.07:424][  0]LogMemory: Physical Memory: 8554.84 MB used,  15969.78 MB free, 24524.62 MB total
-[2018.10.02-15.30.07:424][  0]LogMemory: Virtual Memory: 4638.91 MB used,  15969.78 MB free, 134217728.00 MB total
-[2018.10.02-15.30.07:445][  0]LogInit: Using OS detected language (en-US).
-[2018.10.02-15.30.07:445][  0]LogInit: Using OS detected locale (en-US).
-[2018.10.02-15.30.07:446][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.10.02-15.30.07:802][  0]LogStreaming: Display: Took  0.358s to InitEngineTextLocalization.
-[2018.10.02-15.30.07:803][  0]LogInit: Setting process to per monitor DPI aware
-[2018.10.02-15.30.07:831][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.10.02-15.30.07:831][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.10.02-15.30.09:090][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.10.02-15.30.09:090][  0]LogD3D11RHI: D3D11 adapters:
-[2018.10.02-15.30.09:177][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
-[2018.10.02-15.30.09:177][  0]LogD3D11RHI:       4053/0/12262 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.10.02-15.30.09:178][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.10.02-15.30.09:178][  0]LogD3D11RHI:       0/0/12262 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.10.02-15.30.09:178][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.10.02-15.30.09:184][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.10.02-15.30.09:184][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
-[2018.10.02-15.30.09:184][  0]LogWindows: EnumDisplayDevices:
-[2018.10.02-15.30.09:184][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:0 D:1)
-[2018.10.02-15.30.09:185][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:1 D:1)
-[2018.10.02-15.30.09:185][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2018.10.02-15.30.09:185][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2018.10.02-15.30.09:185][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2018.10.02-15.30.09:185][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
-[2018.10.02-15.30.09:185][  0]LogD3D11RHI:   Driver Version: 411.70 (internal:24.21.14.1170, unified:411.70)
-[2018.10.02-15.30.09:185][  0]LogD3D11RHI:      Driver Date: 9-25-2018
-[2018.10.02-15.30.09:185][  0]LogRHI: Texture pool is 2837 MB (70% of 4053 MB)
-[2018.10.02-15.30.09:216][  0]LogD3D11RHI: Async texture creation enabled
-[2018.10.02-15.30.09:237][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.10.02-15.30.09:333][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Intermediate/Shaders/WorkingDirectory/20320/).
-[2018.10.02-15.30.09:333][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nate/AppData/Local/Temp/UnrealShaderWorkingDir/F265C991402A20C4C98D55BBCDCEEA62/'.
-[2018.10.02-15.30.09:615][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.10.02-15.30.09:628][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.10.02-15.30.09:640][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.10.02-15.30.09:651][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.10.02-15.30.09:736][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.10.02-15.30.09:748][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.10.02-15.30.09:759][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.10.02-15.30.09:772][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.10.02-15.30.09:778][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.10.02-15.30.09:898][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.02-15.30.09:898][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.02-15.30.09:898][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.02-15.30.09:898][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.02-15.30.09:898][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.02-15.30.09:898][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.02-15.30.09:899][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.02-15.30.09:899][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.02-15.30.09:899][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.02-15.30.09:899][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.02-15.30.09:899][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.02-15.30.09:899][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.02-15.30.09:899][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.02-15.30.09:899][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.02-15.30.09:899][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.02-15.30.09:899][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.02-15.30.09:899][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.02-15.30.09:899][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.02-15.30.09:900][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.10.02-15.30.10:025][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.10.02-15.30.10:025][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.10.02-15.30.10:045][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.10.02-15.30.10:045][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.10.02-15.30.10:056][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.10.02-15.30.10:067][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.10.02-15.30.10:079][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.10.02-15.30.10:091][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.10.02-15.30.10:098][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.10.02-15.30.10:099][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.10.02-15.30.10:231][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.10.02-15.30.10:231][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.10.02-15.30.10:231][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.10.02-15.30.12:609][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.10.02-15.30.13:685][  0]LogDerivedDataCache: Loaded boot cache 1.08s 71MB C:/Users/Nate/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.10.02-15.30.13:685][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Nate/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.10.02-15.30.13:685][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.10.02-15.30.13:685][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.10.02-15.30.13:685][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.10.02-15.30.13:685][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.10.02-15.30.13:705][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.10.02-15.30.13:717][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nate/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.10.02-15.30.13:717][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.10.02-15.30.13:717][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.10.02-15.30.13:733][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.10.02-15.30.13:734][  0]LogSlate: Using FreeType 2.6.0
-[2018.10.02-15.30.13:735][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.10.02-15.30.15:876][  0]LogAssetRegistry: FAssetRegistry took 0.0306 seconds to start up
-[2018.10.02-15.30.16:179][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.02-15.30.16:556][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.10.02-15.30.16:562][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.10.02-15.30.16:562][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.10.02-15.30.16:562][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.10.02-15.30.16:562][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.10.02-15.30.16:587][  0]LogNetVersion: OfficeProject 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4114413560)
-[2018.10.02-15.30.17:152][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.113410 seconds
-[2018.10.02-15.30.17:159][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.10.02-15.30.17:159][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2018.10.02-15.30.17:159][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.10.02-15.30.37:521][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.10.02-15.30.37:533][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.10.02-15.30.37:835][  0]SourceControl: Source control is disabled
-[2018.10.02-15.30.37:835][  0]SourceControl: Source control is disabled
-[2018.10.02-15.30.37:837][  0]SourceControl: Source control is disabled
-[2018.10.02-15.30.37:839][  0]SourceControl: Source control is disabled
-[2018.10.02-15.30.38:142][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.10.02-15.30.38:222][  0]LogOcInput: OculusInput pre-init called
-[2018.10.02-15.30.38:380][  0]LogEngine: Initializing Engine...
-[2018.10.02-15.30.38:381][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.10.02-15.30.38:384][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.10.02-15.30.38:384][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.10.02-15.30.38:384][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.10.02-15.30.38:384][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.10.02-15.30.38:565][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.10.02-15.30.38:580][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.10.02-15.30.38:598][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.10.02-15.30.38:616][  0]LogInit: FAudioDevice initialized.
-[2018.10.02-15.30.38:616][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.10.02-15.30.38:825][  0]LogDerivedDataCache: Saved boot cache 0.21s 71MB C:/Users/Nate/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.10.02-15.30.38:856][  0]LogInit: Texture streaming: Enabled
-[2018.10.02-15.30.38:899][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.10.02-15.30.39:566][  0]LogInit: Transaction tracking system initialized
-[2018.10.02-15.30.39:587][  0]BlueprintLog: New page: Editor Load
-[2018.10.02-15.30.39:687][  0]LocalizationService: Localization service is disabled
-[2018.10.02-15.30.40:249][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.10.02-15.30.40:249][  0]LogCook: Display: Mobile HDR setting 1
-[2018.10.02-15.30.40:249][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.10.02-15.30.40:249][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.10.02-15.30.40:249][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.10.02-15.30.40:249][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/' took 0.17s
-[2018.10.02-15.30.40:250][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.10.02-15.30.40:250][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.10.02-15.30.41:281][  0]SourceControl: Source control is disabled
-[2018.10.02-15.30.41:281][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.02-15.30.41:281][  0]LightingResults: New page: Lighting Build
-[2018.10.02-15.30.41:284][  0]MapCheck: New page: Map Check
-[2018.10.02-15.30.41:284][  0]LightingResults: New page: Lighting Build
-[2018.10.02-15.30.41:458][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2018.10.02-15.30.41:463][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.02-15.30.41:484][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.02-15.30.41:533][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 49.54ms to complete.
-[2018.10.02-15.30.41:533][  0]LogFileHelpers: Loading map 'Template_Default' took 0.252
-[2018.10.02-15.30.42:914][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.02-15.30.43:030][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.02-15.30.43:056][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.02-15.30.43:082][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.02-15.30.43:207][  0]LogCollectionManager: Loaded 0 collections in 0.001709 seconds
-[2018.10.02-15.30.43:993][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Saved/Collections/' took 0.01s
-[2018.10.02-15.30.43:993][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/Developers/Nate/Collections/' took 0.01s
-[2018.10.02-15.30.43:993][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/Collections/' took 0.01s
-[2018.10.02-15.30.43:993][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.10.02-15.30.44:014][  0]LogContentBrowser: Native class hierarchy populated in 0.0190 seconds. Added 2572 classes and 603 folders.
-[2018.10.02-15.30.44:646][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.10.02-15.30.48:291][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2018.10.02-15.30.48:415][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
-[2018.10.02-15.30.51:271][  0]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.10.02-15.30.51:280][  0]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.10.02-15.30.51:472][  0]LogSlate: Took 0.097970 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.10.02-15.30.52:780][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2018.10.02-15.30.54:925][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.10.02-15.30.54:925][  0]LogLoad: (Engine Initialization) Total time: 50.08 seconds
-[2018.10.02-15.30.54:925][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.10.02-15.30.55:104][  0]LogContentStreaming: Texture pool size now 3000 MB
-[2018.10.02-15.30.55:309][  0]LogSlate: Took 0.060164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.10.02-15.30.56:091][ 37]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.10.02-15.31.01:582][585]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.02-15.31.06:281][ 55]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.10.02-15.31.09:210][392]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.02-15.31.09:318][405]LogTemp: Repeating last play command: Selected Viewport
-[2018.10.02-15.31.09:454][405]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.10.02-15.31.09:698][405]PIE: New page: PIE session: Untitled_1 (Oct 2, 2018, 7:31:09 AM)
-[2018.10.02-15.31.09:699][405]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2018.10.02-15.31.09:850][405]LogPlayLevel: PIE: StaticDuplicateObject took: (0.151496s)
-[2018.10.02-15.31.09:862][405]LogAIModule: Creating AISystem for world Untitled_1
-[2018.10.02-15.31.09:882][405]LogPlayLevel: PIE: World Init took: (0.021227s)
-[2018.10.02-15.31.09:890][405]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.191224s)
-[2018.10.02-15.31.10:176][405]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.10.02-15.31.10:218][405]LogInit: FAudioDevice initialized.
-[2018.10.02-15.31.10:452][405]LogLoad: Game class is 'GameModeBase'
-[2018.10.02-15.31.10:590][405]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.10.02-11.31.10
-[2018.10.02-15.31.10:635][405]LogWorld: Bringing up level for play took: 0.045934
-[2018.10.02-15.31.10:868][405]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 10 classes and 0 folders.
-[2018.10.02-15.31.11:092][405]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.026
-[2018.10.02-15.31.14:555][722]LogAssetRegistry: Asset discovery search completed in 58.7020 seconds
-[2018.10.02-15.31.14:558][722]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000008 seconds (updated 0 objects)
-[2018.10.02-15.31.16:587][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.02-15.31.16:708][961]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.10.02-15.31.16:767][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.02-15.31.16:814][962]LogPlayLevel: Display: Destroying online subsystem :Context_1
-[2018.10.02-15.31.18:623][179]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.02-15.31.21:031][345]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
-[2018.10.02-15.31.21:031][345]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
-[2018.10.02-15.31.21:031][345]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
-[2018.10.02-15.31.21:031][345]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
-[2018.10.02-15.31.21:031][345]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X256)
-[2018.10.02-15.31.21:031][345]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
-[2018.10.02-15.31.21:031][345]LogTexture: Display: Building textures: mouse (BGRA8, 32X32)
-[2018.10.02-15.31.21:031][345]LogTexture: Display: Building textures: Wirecutter (BGRA8, 32X32)
-[2018.10.02-15.31.21:031][345]LogStaticMesh: Building static mesh cubicle_SmartCombine_1...
-[2018.10.02-15.31.21:126][345]LogStaticMesh: Built static mesh [0.10s] /Game/environment/cubicle/cubicle_SmartCombine_1.cubicle_SmartCombine_1
-[2018.10.02-15.31.21:200][345]LogStaticMesh: Building static mesh keyboard...
-[2018.10.02-15.31.21:266][345]LogStaticMesh: Built static mesh [0.07s] /Game/environment/cubicle/keyboard.keyboard
-[2018.10.02-15.31.21:309][345]LogStaticMesh: Building static mesh cubicle_pCube9_Dup_3...
-[2018.10.02-15.31.21:313][345]LogStaticMesh: Built static mesh [0.04s] /Game/environment/cubicle/cubicle_pCube9_Dup_3.cubicle_pCube9_Dup_3
-[2018.10.02-15.31.21:320][345]LogMaterial: Display: Missing cached shader map for material monitorBackground_Mat, compiling. 
-[2018.10.02-15.31.21:616][345]LogShaderCompilers: Display: Shaders left to compile 31
-[2018.10.02-15.31.21:616][345]LogShaderCompilers: Display: Shaders left to compile 21
-[2018.10.02-15.31.21:616][345]LogShaderCompilers: Display: Shaders left to compile 11
-[2018.10.02-15.31.21:616][345]LogShaderCompilers: Display: Shaders left to compile 1
-[2018.10.02-15.31.21:616][345]LogMaterial: Display: Missing cached shader map for material computer_Mat, compiling. 
-[2018.10.02-15.31.21:633][345]LogMaterial: Display: Missing cached shader map for material cubicle_Mat, compiling. 
-[2018.10.02-15.31.21:650][345]LogMaterial: Display: Missing cached shader map for material screen_Mat, compiling. 
-[2018.10.02-15.31.21:676][345]LogStaticMesh: Building static mesh cubicle_pCube4...
-[2018.10.02-15.31.21:678][345]LogStaticMesh: Built static mesh [0.00s] /Game/environment/cubicle/cubicle_pCube4.cubicle_pCube4
-[2018.10.02-15.31.21:681][345]LogMaterial: Display: Missing cached shader map for material phong1, compiling. 
-[2018.10.02-15.31.21:750][345]LogStaticMesh: Building static mesh cubicle_pCube5...
-[2018.10.02-15.31.21:751][345]LogStaticMesh: Built static mesh [0.03s] /Game/environment/cubicle/cubicle_pCube5.cubicle_pCube5
-[2018.10.02-15.31.21:818][345]LogStaticMesh: Building static mesh cubicle_pCube6...
-[2018.10.02-15.31.21:820][345]LogStaticMesh: Built static mesh [0.05s] /Game/environment/cubicle/cubicle_pCube6.cubicle_pCube6
-[2018.10.02-15.31.22:076][345]LogStaticMesh: Building static mesh cubicle_pCube7...
-[2018.10.02-15.31.22:081][345]LogStaticMesh: Built static mesh [0.01s] /Game/environment/cubicle/cubicle_pCube7.cubicle_pCube7
-[2018.10.02-15.31.22:180][345]LogStaticMesh: Building static mesh cubicle_pCube8...
-[2018.10.02-15.31.22:181][345]LogStaticMesh: Built static mesh [0.00s] /Game/environment/cubicle/cubicle_pCube8.cubicle_pCube8
-[2018.10.02-15.31.22:260][345]LogMaterial: Display: Missing cached shader map for material mouse_Mat, compiling. 
-[2018.10.02-15.31.22:384][345]LogMaterial: Display: Missing cached shader map for material Wirecutter_Mat, compiling. 
-[2018.10.02-15.31.22:448][345]LogMaterial: Display: Missing cached shader map for material mousepad_Mat, compiling. 
-[2018.10.02-15.31.22:466][345]LogMaterial: Display: Missing cached shader map for material toolbar_Mat, compiling. 
-[2018.10.02-15.31.22:481][345]LogAIModule: Creating AISystem for world Prototype
-[2018.10.02-15.31.22:620][345]LogAssetEditorManager: Opening Asset editor for World /Game/levels/Prototype.Prototype
-[2018.10.02-15.31.22:718][345]Cmd: MAP LOAD FILE="../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/levels/Prototype.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.02-15.31.22:718][345]LightingResults: New page: Lighting Build
-[2018.10.02-15.31.22:719][345]LoadErrors: New page: Loading map: Prototype.umap
-[2018.10.02-15.31.22:719][345]MapCheck: New page: Map Check
-[2018.10.02-15.31.22:719][345]LightingResults: New page: Lighting Build
-[2018.10.02-15.31.22:897][345]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.02-15.31.22:960][345]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.02-15.31.23:022][345]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 61.93ms to complete.
-[2018.10.02-15.31.23:022][345]LogFileHelpers: Loading map 'Prototype' took 0.330
-[2018.10.02-15.31.23:415][347]LogRenderer: Reallocating scene render targets to support 2048x2048 Format 10 NumSamples 1 (Frame:1).
-[2018.10.02-15.31.25:019][417]LogShaderCompilers: Display: Shaders left to compile 302
-[2018.10.02-15.31.26:551][495]LogShaderCompilers: Display: Shaders left to compile 292
-[2018.10.02-15.31.26:815][506]LogShaderCompilers: Display: Shaders left to compile 282
-[2018.10.02-15.31.27:694][540]LogShaderCompilers: Display: Shaders left to compile 272
-[2018.10.02-15.31.27:824][544]LogShaderCompilers: Display: Shaders left to compile 262
-[2018.10.02-15.31.29:131][593]MapCheck: New page: Map Check
-[2018.10.02-15.31.29:200][593]LightingResults: New page: Lighting Build - Oct 2, 2018, 7:31:29 AM
-[2018.10.02-15.31.29:535][593]LogShaderCompilers: Display: Shaders left to compile 252
-[2018.10.02-15.31.29:535][593]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2018.10.02-15.31.30:029][593]LogShaderCompilers: Display: Shaders left to compile 242
-[2018.10.02-15.31.30:029][593]LogShaderCompilers: Display: Shaders left to compile 232
-[2018.10.02-15.31.30:029][593]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2018.10.02-15.31.30:218][593]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2018.10.02-15.31.31:896][593]LogShaderCompilers: Display: Shaders left to compile 222
-[2018.10.02-15.31.31:896][593]LogShaderCompilers: Display: Shaders left to compile 212
-[2018.10.02-15.31.31:896][593]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2018.10.02-15.31.31:896][593]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20320
-[2018.10.02-15.31.43:339][593]LogShaderCompilers: Display: Shaders left to compile 202
-[2018.10.02-15.31.43:339][593]LogShaderCompilers: Display: Shaders left to compile 192
-[2018.10.02-15.31.43:339][593]LogShaderCompilers: Display: Shaders left to compile 182
-[2018.10.02-15.31.43:339][593]LogShaderCompilers: Display: Shaders left to compile 172
-[2018.10.02-15.31.43:339][593]LogShaderCompilers: Display: Shaders left to compile 162
-[2018.10.02-15.31.43:339][593]LogShaderCompilers: Display: Shaders left to compile 152
-[2018.10.02-15.31.43:339][593]LogShaderCompilers: Display: Shaders left to compile 142
-[2018.10.02-15.31.43:339][593]LogShaderCompilers: Display: Shaders left to compile 132
-[2018.10.02-15.31.43:339][593]LogShaderCompilers: Display: Shaders left to compile 122
-[2018.10.02-15.31.43:339][593]LogShaderCompilers: Display: Shaders left to compile 112
-[2018.10.02-15.31.43:339][593]LogShaderCompilers: Display: Shaders left to compile 102
-[2018.10.02-15.31.43:339][593]LogShaderCompilers: Display: Shaders left to compile 92
-[2018.10.02-15.31.43:339][593]LogShaderCompilers: Display: Shaders left to compile 82
-[2018.10.02-15.31.43:339][593]LogShaderCompilers: Display: Shaders left to compile 72
-[2018.10.02-15.31.43:339][593]LogShaderCompilers: Display: Shaders left to compile 62
-[2018.10.02-15.31.43:339][593]LogShaderCompilers: Display: Shaders left to compile 52
-[2018.10.02-15.31.43:339][593]LogShaderCompilers: Display: Shaders left to compile 42
-[2018.10.02-15.31.43:339][593]LogShaderCompilers: Display: Shaders left to compile 32
-[2018.10.02-15.31.43:339][593]LogShaderCompilers: Display: Shaders left to compile 22
-[2018.10.02-15.31.43:339][593]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.10.02-15.31.43:339][593]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.10.02-15.31.43:339][593]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
-[2018.10.02-15.31.43:342][593]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2018.10.02-15.31.43:342][593]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2018.10.02-15.31.43:342][593]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2018.10.02-15.31.43:342][593]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2018.10.02-15.31.43:342][593]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2018.10.02-15.31.43:740][593]LogEditorBuildUtils: Build time 0:14
-[2018.10.02-15.31.43:769][593]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
-[2018.10.02-15.31.43:801][593]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
-[2018.10.02-15.31.43:820][593]LogShaderCompilers: Display: Shaders left to compile 4
-[2018.10.02-15.31.43:978][595]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer phong1, compiling. 
-[2018.10.02-15.31.43:985][595]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.10.02-15.31.43:985][595]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer phong1, compiling. 
-[2018.10.02-15.31.44:011][595]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.10.02-15.31.44:069][596]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer mousepad_Mat, compiling. 
-[2018.10.02-15.31.44:075][596]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.10.02-15.31.44:075][596]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer mousepad_Mat, compiling. 
-[2018.10.02-15.31.44:143][597]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer computer_Mat, compiling. 
-[2018.10.02-15.31.44:151][597]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer computer_Mat, compiling. 
-[2018.10.02-15.31.44:205][598]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer screen_Mat, compiling. 
-[2018.10.02-15.31.44:214][598]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer screen_Mat, compiling. 
-[2018.10.02-15.31.44:235][599]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer cubicle_Mat, compiling. 
-[2018.10.02-15.31.44:244][599]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer cubicle_Mat, compiling. 
-[2018.10.02-15.31.44:289][600]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer monitorBackground_Mat, compiling. 
-[2018.10.02-15.31.44:309][600]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer monitorBackground_Mat, compiling. 
-[2018.10.02-15.31.44:327][601]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer toolbar_Mat, compiling. 
-[2018.10.02-15.31.44:352][601]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer toolbar_Mat, compiling. 
-[2018.10.02-15.31.44:368][602]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Wirecutter_Mat, compiling. 
-[2018.10.02-15.31.44:376][602]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Wirecutter_Mat, compiling. 
-[2018.10.02-15.31.44:384][602]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Wirecutter_Mat, compiling. 
-[2018.10.02-15.31.46:378][604]LogShaderCompilers: Display: Shaders left to compile 28
-[2018.10.02-15.31.46:379][604]LogShaderCompilers: Display: Shaders left to compile 18
-[2018.10.02-15.31.46:379][604]LogShaderCompilers: Display: Shaders left to compile 8
-[2018.10.02-15.31.50:189][721]LightingResults: Warning: cubicle_pCube9_Dup_3 Object has overlapping UVs.
-[2018.10.02-15.31.50:189][721]LightingResults: cubicle_pCube9_Dup_3 Lightmap UV are overlapping by 27.4%. Please adjust content - Enable Error Coloring to visualize.
-[2018.10.02-15.31.50:338][729]LightingResults: Warning: cubicle_pCube9_Dup_3 Object has overlapping UVs.
-[2018.10.02-15.31.50:338][729]LightingResults: cubicle_pCube9_Dup_3 Lightmap UV are overlapping by 27.4%. Please adjust content - Enable Error Coloring to visualize.
-[2018.10.02-15.31.50:360][730]LightingResults: Warning: cubicle_pCube9_Dup_3 Object has overlapping UVs.
-[2018.10.02-15.31.50:371][731]LightingResults: cubicle_pCube9_Dup_3 Lightmap UV are overlapping by 27.4%. Please adjust content - Enable Error Coloring to visualize.
-[2018.10.02-15.31.50:557][740]LightingResults: Warning: cubicle_pCube9_Dup_3 Object has overlapping UVs.
-[2018.10.02-15.31.50:557][740]LightingResults: cubicle_pCube9_Dup_3 Lightmap UV are overlapping by 27.4%. Please adjust content - Enable Error Coloring to visualize.
-[2018.10.02-15.31.50:800][753]LightingResults: Warning: keyboard Object has overlapping UVs.
-[2018.10.02-15.31.50:800][753]LightingResults: keyboard Lightmap UV are overlapping by 23.7%. Please adjust content - Enable Error Coloring to visualize.
-[2018.10.02-15.31.51:374][784]Job is a success!
-[2018.10.02-15.31.51:864][785]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.062s
-[2018.10.02-15.31.51:864][785]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
-[2018.10.02-15.31.51:864][785]LogVolumetricLightmapImport:      BrickData 40x5x5 = 0.0Mb
-[2018.10.02-15.31.51:864][785]LogVolumetricLightmapImport:      Bricks at Level
-[2018.10.02-15.31.51:864][785]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
-[2018.10.02-15.31.51:864][785]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
-[2018.10.02-15.31.51:864][785]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
-[2018.10.02-15.31.52:242][785]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
-[2018.10.02-15.31.52:242][785]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
-[2018.10.02-15.31.52:242][785]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
-[2018.10.02-15.31.52:242][785]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
-[2018.10.02-15.31.52:242][785]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
-[2018.10.02-15.31.52:242][785]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
-[2018.10.02-15.31.52:317][785]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 32X32)
-[2018.10.02-15.31.52:317][785]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 512X64)
-[2018.10.02-15.31.52:317][785]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 1024X256)
-[2018.10.02-15.31.52:668][785]Lightmass on DESKTOP-VBFITEQ: 3.93 sec total, 237 ms importing, 22 ms setup, 426 ms photons, 2.73 sec processing, 0 ms extra exporting [40/40 mappings]. Threads: 19.0 sec total, 5.04 sec processing.
-[2018.10.02-15.31.52:873][785]LogStaticLightingSystem: Illumination: 23.6 sec (248 ms encoding lightmaps, 74 ms encoding shadowmaps)
-[2018.10.02-15.31.52:873][785]LogStaticLightingSystem: Lightmap texture memory:  2.1 MB (2.1 MB streaming, 0.0 MB non-streaming), 6 textures
-[2018.10.02-15.31.52:873][785]LogStaticLightingSystem: Shadowmap texture memory: 1.4 MB (1.4 MB streaming, 0.0 MB non-streaming), 3 textures
-[2018.10.02-15.31.53:328][785]DumpUnbuiltLightIteractions
-[2018.10.02-15.31.53:328][785]Lights with unbuilt interactions: 0
-[2018.10.02-15.31.53:328][785]
-[2018.10.02-15.31.53:328][785]Primitives with unbuilt interactions: 0
-[2018.10.02-15.31.53:539][786]Cmd: MAP CHECK NOTIFYRESULTS
-[2018.10.02-15.31.53:540][786]MapCheck: New page: Prototype - Oct 2, 2018, 7:31:53 AM
-[2018.10.02-15.31.53:983][786]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 443.404ms to complete.
-[2018.10.02-15.31.58:265][ 41]LogSlate: Window 'Message Log' being destroyed
-[2018.10.02-15.31.58:270][ 41]LogSlate: Window 'Message Log' being destroyed
-[2018.10.02-15.32.02:611][326]LogTemp: Repeating last play command: Selected Viewport
-[2018.10.02-15.32.02:628][326]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
-[2018.10.02-15.32.02:628][326]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.10.02-15.32.02:628][326]PIE: New page: PIE session: Prototype (Oct 2, 2018, 7:32:02 AM)
-[2018.10.02-15.32.02:628][326]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_Prototype
-[2018.10.02-15.32.02:663][326]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034163s)
-[2018.10.02-15.32.02:664][326]LogAIModule: Creating AISystem for world Prototype
-[2018.10.02-15.32.02:664][326]LogPlayLevel: PIE: World Init took: (0.000595s)
-[2018.10.02-15.32.02:664][326]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/Prototype.Prototype to /Game/levels/UEDPIE_0_Prototype.Prototype (0.034912s)
-[2018.10.02-15.32.02:689][326]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.10.02-15.32.02:702][326]LogInit: FAudioDevice initialized.
-[2018.10.02-15.32.02:733][326]LogLoad: Game class is 'MouseTest_Gamemode_C'
-[2018.10.02-15.32.02:738][326]LogWorld: Bringing World /Game/levels/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2018.10.02-11.32.02
-[2018.10.02-15.32.02:743][326]LogWorld: Bringing up level for play took: 0.007702
-[2018.10.02-15.32.02:816][326]PIE: Play in editor start time for /Game/levels/UEDPIE_0_Prototype 0.75
-[2018.10.02-15.32.02:817][326]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
-[2018.10.02-15.32.25:109][908]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
-[2018.10.02-15.32.25:109][908]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.02-15.32.25:163][908]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.10.02-15.32.25:163][908]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
-[2018.10.02-15.32.25:200][908]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.02-15.32.25:221][909]LogPlayLevel: Display: Destroying online subsystem :Context_2
-[2018.10.02-15.32.29:236][166]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.02-15.32.36:550][628]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cubicle_pCube20)
-[2018.10.02-15.32.37:304][629]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cubicle_pCube20)
-[2018.10.02-15.32.37:525][638]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cubicle_pCube19)
-[2018.10.02-15.32.38:486][695]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cubicle_pCube20)
-[2018.10.02-15.32.39:370][745]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cubicle_pCube9_Dup_6)
-[2018.10.02-15.32.43:375][980]LogSlate: Took 0.013286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.10.02-15.32.48:812][332]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.02-15.33.53:905][218]Cmd: DELETE
-[2018.10.02-15.33.53:905][218]Cmd: ACTOR DELETE
-[2018.10.02-15.33.54:173][218]LogEditorActor: Deleted Actor: TriggerBox
-[2018.10.02-15.33.54:219][218]LogEditorActor: Deleted 1 Actors (0.088 secs)
-[2018.10.02-15.33.57:178][411]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.02-15.34.11:465][313]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.02-15.35.18:013][489]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.02-15.35.18:189][497]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MouseTest.MouseTest
-[2018.10.02-15.35.19:597][497]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0024 seconds. Added 116 classes and 0 folders.
-[2018.10.02-15.35.23:896][736]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MouseTest.MouseTest
-[2018.10.02-15.35.24:636][736]LogSlate: Took 0.034571 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.10.02-15.35.33:971][662]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MouseTest_Gamemode.MouseTest_Gamemode
-[2018.10.02-15.35.36:234][885]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MouseTest_Gamemode.MouseTest_Gamemode
-[2018.10.02-15.35.48:103][ 13]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Computer_Mouse_Actor_BP.Computer_Mouse_Actor_BP
-[2018.10.02-15.36.10:549][310]Cmd: DELETE
-[2018.10.02-15.36.10:549][310]Cmd: ACTOR DELETE
-[2018.10.02-15.36.10:553][310]LogEditorActor: Deleted Actor: TriggerSphere
-[2018.10.02-15.36.10:585][310]LogEditorActor: Deleted 1 Actors (0.035 secs)
-[2018.10.02-15.36.15:645][650]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.02-15.37.11:276][873]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.02-15.38.34:781][891]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cubicle_pCube9_Dup_6)
-[2018.10.02-15.38.55:466][ 73]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.02-15.39.37:602][770]LogSlate: Window 'Select Path' being destroyed
-[2018.10.02-15.39.53:573][709]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/environment/cubicle/cubicle_pCube9_Dup_3.cubicle_pCube9_Dup_3
-[2018.10.02-15.41.23:186][219]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.02-15.42.10:395][250]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/CubicleTrigger.CubicleTrigger
-[2018.10.02-15.42.10:735][250]LogSlate: Window 'Add Blueprint Component' being destroyed
-[2018.10.02-15.42.13:600][414]LogSlate: Window 'CubicleTrigger*' being destroyed
-[2018.10.02-15.42.14:589][438]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Saved/Prototype_Auto1A4A49FE84BF0785059703CAABCD13EE0.tmp' to '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Saved/Autosaves/Game/levels/Prototype_Auto1.umap'
-[2018.10.02-15.42.14:612][438]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/levels/Prototype' took 0.692
-[2018.10.02-15.42.14:612][438]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.692
-[2018.10.02-15.42.14:614][438]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/levels/Prototype_BuiltData] ([1] browsable assets)...
-[2018.10.02-15.42.14:614][438]OBJ SavePackage: Finished generating thumbnails for package [/Game/levels/Prototype_BuiltData]
-[2018.10.02-15.42.14:658][438]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Saved/Prototype_BuiltData_Auto1F8DDFD024866DEC62C384683C1DBD1E0.tmp' to '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Saved/Autosaves/Game/levels/Prototype_BuiltData_Auto1.uasset'
-[2018.10.02-15.42.14:660][438]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CubicleTrigger] ([1] browsable assets)...
-[2018.10.02-15.42.14:660][438]OBJ SavePackage: Finished generating thumbnails for package [/Game/CubicleTrigger]
-[2018.10.02-15.42.14:668][438]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Saved/CubicleTrigger_Auto1764D8A5E43574D6E94AD37ADFE8F8419.tmp' to '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Saved/Autosaves/Game/CubicleTrigger_Auto1.uasset'
-[2018.10.02-15.42.14:669][438]LogFileHelpers: Auto-saving content packages took 0.056
-[2018.10.02-15.43.14:945][581]LogSlate: Window 'Delete Assets' being destroyed
-[2018.10.02-15.43.15:061][581]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.10.02-15.43.15:141][581]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.10.02-15.44.26:204][197]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/levels/Prototype.Prototype:PersistentLevel.Prototype
-[2018.10.02-15.45.43:307][343]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/CharacterBP.CharacterBP
-[2018.10.02-15.45.45:410][447]LogSlate: Window 'CharacterBP' being destroyed
-[2018.10.02-15.47.34:715][140]BlueprintLog: New page: Compile Prototype
-[2018.10.02-15.47.34:725][140]LogBlueprint: Error: [Compiler PersistentLevel.Prototype] This blueprint (self) is not a CharacterBP_C, therefore ' Target ' must have a connection.
-[2018.10.02-15.47.34:725][140]LogBlueprint: Error: [Compiler PersistentLevel.Prototype] This blueprint (self) is not a CharacterBP_C, therefore ' Target ' must have a connection.
-[2018.10.02-15.47.34:726][140]LogBlueprint: Error: [Compiler PersistentLevel.Prototype] Variable node  Set NearChair  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
-[2018.10.02-15.47.34:726][140]LogBlueprint: Error: [Compiler PersistentLevel.Prototype] The property associated with  Near Chair  could not be found in '/Game/levels/Prototype.Prototype_C'
-[2018.10.02-15.47.34:726][140]LogBlueprint: Error: [Compiler PersistentLevel.Prototype] Variable node  Set NearChair  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
-[2018.10.02-15.47.34:726][140]LogBlueprint: Error: [Compiler PersistentLevel.Prototype] The property associated with  Near Chair  could not be found in '/Game/levels/Prototype.Prototype_C'
-[2018.10.02-15.47.34:879][140]LogBlueprint: Warning: [Compiler PersistentLevel.Prototype] [1050.03] Compile of PersistentLevel.Prototype failed. 6 Fatal Issue(s) 0 Warning(s) [in 163 ms] (/Game/levels/Prototype.Prototype:PersistentLevel.Prototype)
-[2018.10.02-15.47.41:065][876]BlueprintLog: New page: Compile Prototype
-[2018.10.02-15.47.41:070][876]LogBlueprint: Error: [Compiler PersistentLevel.Prototype] The property associated with  Near Chair  could not be found in '/Game/levels/Prototype.Prototype_C'
-[2018.10.02-15.47.41:070][876]LogBlueprint: Error: [Compiler PersistentLevel.Prototype] The property associated with  Near Chair  could not be found in '/Game/levels/Prototype.Prototype_C'
-[2018.10.02-15.47.41:279][876]LogBlueprint: Warning: [Compiler PersistentLevel.Prototype] [1056.43] Compile of PersistentLevel.Prototype failed. 2 Fatal Issue(s) 0 Warning(s) [in 214 ms] (/Game/levels/Prototype.Prototype:PersistentLevel.Prototype)
-[2018.10.02-15.47.46:172][462]BlueprintLog: New page: Compile CharacterBP
-[2018.10.02-15.47.47:444][590]BlueprintLog: New page: Compile Prototype
-[2018.10.02-15.49.51:696][  5]BlueprintLog: New page: Compile CharacterBP
-[2018.10.02-15.49.55:590][346]LogTemp: Repeating last play command: Selected Viewport
-[2018.10.02-15.49.55:614][346]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
-[2018.10.02-15.49.55:614][346]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.10.02-15.49.55:614][346]PIE: New page: PIE session: Prototype (Oct 2, 2018, 7:49:55 AM)
-[2018.10.02-15.49.55:614][346]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_Prototype
-[2018.10.02-15.49.55:618][346]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003764s)
-[2018.10.02-15.49.55:619][346]LogAIModule: Creating AISystem for world Prototype
-[2018.10.02-15.49.55:619][346]LogPlayLevel: PIE: World Init took: (0.000786s)
-[2018.10.02-15.49.55:619][346]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/Prototype.Prototype to /Game/levels/UEDPIE_0_Prototype.Prototype (0.004664s)
-[2018.10.02-15.49.55:647][346]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.10.02-15.49.55:661][346]LogInit: FAudioDevice initialized.
-[2018.10.02-15.49.55:695][346]LogLoad: Game class is 'MouseTest_Gamemode_C'
-[2018.10.02-15.49.55:699][346]LogWorld: Bringing World /Game/levels/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2018.10.02-11.49.55
-[2018.10.02-15.49.55:699][346]LogWorld: Bringing up level for play took: 0.002624
-[2018.10.02-15.49.55:779][346]PIE: Play in editor start time for /Game/levels/UEDPIE_0_Prototype -0.288
-[2018.10.02-15.49.55:779][346]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
-[2018.10.02-15.50.15:127][757]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
-[2018.10.02-15.50.15:128][757]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.02-15.50.15:182][757]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.10.02-15.50.15:182][757]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
-[2018.10.02-15.50.15:236][757]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.02-15.50.15:258][758]LogPlayLevel: Display: Destroying online subsystem :Context_16
-[2018.10.02-15.50.16:401][834]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.02-15.50.17:707][960]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CharacterBP" FILE="../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/CharacterBP.uasset" SILENT=true
-[2018.10.02-15.50.17:810][960]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Saved/CharacterBP88344B094960522F1C07F48A0CF6720E.tmp' to '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/CharacterBP.uasset'
-[2018.10.02-15.50.20:834][ 74]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Saved/Prototype40D668394165F473B3688B83322F97B6.tmp' to '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/levels/Prototype.umap'
-[2018.10.02-15.50.20:871][ 74]LogFileHelpers: Saving map 'Prototype' took 2.080
-[2018.10.02-15.51.25:096][538]BlueprintLog: New page: Compile CharacterBP
-[2018.10.02-15.51.27:014][744]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CharacterBP" FILE="../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/CharacterBP.uasset" SILENT=true
-[2018.10.02-15.51.27:047][744]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Saved/CharacterBPED68E8134BDCDA78255226A8D4A6EC0F.tmp' to '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/CharacterBP.uasset'
-[2018.10.02-15.51.28:355][847]LogTemp: Repeating last play command: Selected Viewport
-[2018.10.02-15.51.28:374][847]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
-[2018.10.02-15.51.28:374][847]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.10.02-15.51.28:375][847]PIE: New page: PIE session: Prototype (Oct 2, 2018, 7:51:28 AM)
-[2018.10.02-15.51.28:375][847]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_Prototype
-[2018.10.02-15.51.28:379][847]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003962s)
-[2018.10.02-15.51.28:379][847]LogAIModule: Creating AISystem for world Prototype
-[2018.10.02-15.51.28:380][847]LogPlayLevel: PIE: World Init took: (0.000836s)
-[2018.10.02-15.51.28:380][847]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/Prototype.Prototype to /Game/levels/UEDPIE_0_Prototype.Prototype (0.004906s)
-[2018.10.02-15.51.28:410][847]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.10.02-15.51.28:425][847]LogInit: FAudioDevice initialized.
-[2018.10.02-15.51.28:453][847]LogLoad: Game class is 'MouseTest_Gamemode_C'
-[2018.10.02-15.51.28:455][847]LogWorld: Bringing World /Game/levels/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2018.10.02-11.51.28
-[2018.10.02-15.51.28:456][847]LogWorld: Bringing up level for play took: 0.001573
-[2018.10.02-15.51.28:468][847]PIE: Play in editor start time for /Game/levels/UEDPIE_0_Prototype 0.402
-[2018.10.02-15.51.28:468][847]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
-[2018.10.02-15.51.36:192][411]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
-[2018.10.02-15.51.36:192][411]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.02-15.51.36:247][411]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.10.02-15.51.36:247][411]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
-[2018.10.02-15.51.36:283][411]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.02-15.51.36:305][412]LogPlayLevel: Display: Destroying online subsystem :Context_17
-[2018.10.02-15.51.37:048][462]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.02-15.52.13:317][757]BlueprintLog: New page: Compile CharacterBP
-[2018.10.02-15.52.17:895][230]LogTemp: Repeating last play command: Selected Viewport
-[2018.10.02-15.52.17:915][230]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
-[2018.10.02-15.52.17:915][230]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.10.02-15.52.17:916][230]PIE: New page: PIE session: Prototype (Oct 2, 2018, 7:52:17 AM)
-[2018.10.02-15.52.17:916][230]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_Prototype
-[2018.10.02-15.52.17:919][230]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003725s)
-[2018.10.02-15.52.17:920][230]LogAIModule: Creating AISystem for world Prototype
-[2018.10.02-15.52.17:921][230]LogPlayLevel: PIE: World Init took: (0.001077s)
-[2018.10.02-15.52.17:921][230]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/Prototype.Prototype to /Game/levels/UEDPIE_0_Prototype.Prototype (0.004967s)
-[2018.10.02-15.52.17:952][230]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.10.02-15.52.17:966][230]LogInit: FAudioDevice initialized.
-[2018.10.02-15.52.17:995][230]LogLoad: Game class is 'MouseTest_Gamemode_C'
-[2018.10.02-15.52.17:997][230]LogWorld: Bringing World /Game/levels/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2018.10.02-11.52.17
-[2018.10.02-15.52.17:997][230]LogWorld: Bringing up level for play took: 0.001519
-[2018.10.02-15.52.18:013][230]PIE: Play in editor start time for /Game/levels/UEDPIE_0_Prototype -0.054
-[2018.10.02-15.52.18:013][230]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
-[2018.10.02-15.52.19:789][356]LogBlueprintUserMessages: [CharacterBP_C_0] false
-[2018.10.02-15.52.20:283][394]LogBlueprintUserMessages: [CharacterBP_C_0] false
-[2018.10.02-15.52.21:395][475]LogBlueprintUserMessages: [CharacterBP_C_0] false
-[2018.10.02-15.52.21:679][496]LogBlueprintUserMessages: [CharacterBP_C_0] false
-[2018.10.02-15.52.21:869][510]LogBlueprintUserMessages: [CharacterBP_C_0] false
-[2018.10.02-15.52.22:150][530]LogBlueprintUserMessages: [CharacterBP_C_0] false
-[2018.10.02-15.52.22:870][583]LogBlueprintUserMessages: [CharacterBP_C_0] false
-[2018.10.02-15.52.23:073][598]LogBlueprintUserMessages: [CharacterBP_C_0] false
-[2018.10.02-15.52.23:263][612]LogBlueprintUserMessages: [CharacterBP_C_0] false
-[2018.10.02-15.52.26:351][837]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
-[2018.10.02-15.52.26:352][837]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.02-15.52.26:407][837]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.10.02-15.52.26:407][837]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
-[2018.10.02-15.52.26:447][837]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.02-15.52.26:469][838]LogPlayLevel: Display: Destroying online subsystem :Context_18
-[2018.10.02-15.52.27:426][902]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.02-15.52.44:883][938]BlueprintLog: New page: Compile CharacterBP
-[2018.10.02-15.52.46:252][ 31]LogTemp: Repeating last play command: Selected Viewport
-[2018.10.02-15.52.46:271][ 31]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
-[2018.10.02-15.52.46:272][ 31]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.10.02-15.52.46:272][ 31]PIE: New page: PIE session: Prototype (Oct 2, 2018, 7:52:46 AM)
-[2018.10.02-15.52.46:272][ 31]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_Prototype
-[2018.10.02-15.52.46:276][ 31]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003847s)
-[2018.10.02-15.52.46:277][ 31]LogAIModule: Creating AISystem for world Prototype
-[2018.10.02-15.52.46:277][ 31]LogPlayLevel: PIE: World Init took: (0.001018s)
-[2018.10.02-15.52.46:277][ 31]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/Prototype.Prototype to /Game/levels/UEDPIE_0_Prototype.Prototype (0.005019s)
-[2018.10.02-15.52.46:309][ 31]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.10.02-15.52.46:324][ 31]LogInit: FAudioDevice initialized.
-[2018.10.02-15.52.46:354][ 31]LogLoad: Game class is 'MouseTest_Gamemode_C'
-[2018.10.02-15.52.46:356][ 31]LogWorld: Bringing World /Game/levels/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2018.10.02-11.52.46
-[2018.10.02-15.52.46:356][ 31]LogWorld: Bringing up level for play took: 0.001469
-[2018.10.02-15.52.46:369][ 31]PIE: Play in editor start time for /Game/levels/UEDPIE_0_Prototype 0.303
-[2018.10.02-15.52.46:369][ 31]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
-[2018.10.02-15.52.49:151][229]LogBlueprintUserMessages: [CharacterBP_C_0] false
-[2018.10.02-15.52.49:385][246]LogBlueprintUserMessages: [CharacterBP_C_0] false
-[2018.10.02-15.52.49:745][272]LogBlueprintUserMessages: [CharacterBP_C_0] false
-[2018.10.02-15.52.49:912][284]LogBlueprintUserMessages: [CharacterBP_C_0] false
-[2018.10.02-15.52.50:079][296]LogBlueprintUserMessages: [CharacterBP_C_0] false
-[2018.10.02-15.52.52:049][438]LogBlueprintUserMessages: [CharacterBP_C_0] false
-[2018.10.02-15.52.52:202][449]LogBlueprintUserMessages: [CharacterBP_C_0] false
-[2018.10.02-15.52.52:326][458]LogBlueprintUserMessages: [CharacterBP_C_0] false
-[2018.10.02-15.52.53:271][525]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
-[2018.10.02-15.52.53:271][525]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.02-15.52.53:328][525]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.10.02-15.52.53:328][525]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
-[2018.10.02-15.52.53:365][525]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.02-15.52.53:389][526]LogPlayLevel: Display: Destroying online subsystem :Context_19
-[2018.10.02-15.52.55:879][691]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.02-15.53.10:741][436]BlueprintLog: New page: Compile Prototype
-[2018.10.02-15.53.13:281][660]LogTemp: Repeating last play command: Selected Viewport
-[2018.10.02-15.53.13:302][660]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
-[2018.10.02-15.53.13:302][660]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.10.02-15.53.13:302][660]PIE: New page: PIE session: Prototype (Oct 2, 2018, 7:53:13 AM)
-[2018.10.02-15.53.13:302][660]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_Prototype
-[2018.10.02-15.53.13:306][660]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003542s)
-[2018.10.02-15.53.13:307][660]LogAIModule: Creating AISystem for world Prototype
-[2018.10.02-15.53.13:307][660]LogPlayLevel: PIE: World Init took: (0.000778s)
-[2018.10.02-15.53.13:307][660]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/Prototype.Prototype to /Game/levels/UEDPIE_0_Prototype.Prototype (0.004474s)
-[2018.10.02-15.53.13:338][660]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.10.02-15.53.13:351][660]LogInit: FAudioDevice initialized.
-[2018.10.02-15.53.13:383][660]LogLoad: Game class is 'MouseTest_Gamemode_C'
-[2018.10.02-15.53.13:386][660]LogWorld: Bringing World /Game/levels/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2018.10.02-11.53.13
-[2018.10.02-15.53.13:387][660]LogWorld: Bringing up level for play took: 0.002752
-[2018.10.02-15.53.13:400][660]LogBlueprintUserMessages: [Prototype_C_6] Hello
-[2018.10.02-15.53.13:401][660]PIE: Play in editor start time for /Game/levels/UEDPIE_0_Prototype -0.665
-[2018.10.02-15.53.13:401][660]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
-[2018.10.02-15.53.16:080][852]LogBlueprintUserMessages: [Prototype_C_6] Hello
-[2018.10.02-15.53.17:548][959]LogBlueprintUserMessages: [Prototype_C_6] Hello
-[2018.10.02-15.53.18:658][ 40]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
-[2018.10.02-15.53.18:658][ 40]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.02-15.53.18:718][ 40]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.10.02-15.53.18:718][ 40]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
-[2018.10.02-15.53.18:786][ 40]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.02-15.53.18:801][ 41]LogPlayLevel: Display: Destroying online subsystem :Context_20
-[2018.10.02-15.53.19:183][ 67]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.02-15.53.36:600][135]BlueprintLog: New page: Compile Prototype
-[2018.10.02-15.53.38:128][255]LogTemp: Repeating last play command: Selected Viewport
-[2018.10.02-15.53.38:147][255]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
-[2018.10.02-15.53.38:147][255]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.10.02-15.53.38:147][255]PIE: New page: PIE session: Prototype (Oct 2, 2018, 7:53:38 AM)
-[2018.10.02-15.53.38:147][255]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_Prototype
-[2018.10.02-15.53.38:151][255]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004170s)
-[2018.10.02-15.53.38:152][255]LogAIModule: Creating AISystem for world Prototype
-[2018.10.02-15.53.38:152][255]LogPlayLevel: PIE: World Init took: (0.000601s)
-[2018.10.02-15.53.38:152][255]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/Prototype.Prototype to /Game/levels/UEDPIE_0_Prototype.Prototype (0.004884s)
-[2018.10.02-15.53.38:185][255]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.10.02-15.53.38:198][255]LogInit: FAudioDevice initialized.
-[2018.10.02-15.53.38:227][255]LogLoad: Game class is 'MouseTest_Gamemode_C'
-[2018.10.02-15.53.38:229][255]LogWorld: Bringing World /Game/levels/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2018.10.02-11.53.38
-[2018.10.02-15.53.38:229][255]LogWorld: Bringing up level for play took: 0.001329
-[2018.10.02-15.53.38:242][255]PIE: Play in editor start time for /Game/levels/UEDPIE_0_Prototype 0.175
-[2018.10.02-15.53.38:242][255]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
-[2018.10.02-15.53.40:040][385]LogBlueprintUserMessages: [CharacterBP_C_0] true
-[2018.10.02-15.53.40:477][417]LogBlueprintUserMessages: [CharacterBP_C_0] true
-[2018.10.02-15.53.40:773][438]LogBlueprintUserMessages: [CharacterBP_C_0] true
-[2018.10.02-15.53.43:001][601]LogBlueprintUserMessages: [CharacterBP_C_0] true
-[2018.10.02-15.53.45:765][800]LogBlueprintUserMessages: [CharacterBP_C_0] true
-[2018.10.02-15.53.47:258][908]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
-[2018.10.02-15.53.47:258][908]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.02-15.53.47:319][908]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.10.02-15.53.47:319][908]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
-[2018.10.02-15.53.47:362][908]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.02-15.53.47:386][909]LogPlayLevel: Display: Destroying online subsystem :Context_21
-[2018.10.02-15.53.48:954][  8]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.02-15.53.50:134][ 82]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.02-15.53.50:385][ 82]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Saved/PrototypeC2C218CF4EA133D0E1C0AEA4A4EC2C87.tmp' to '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/levels/Prototype.umap'
-[2018.10.02-15.53.50:414][ 82]LogFileHelpers: Saving map 'Prototype' took 0.277
-[2018.10.02-15.53.50:416][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/levels/Prototype_BuiltData" FILE="../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/levels/Prototype_BuiltData.uasset" SILENT=true
-[2018.10.02-15.53.50:512][ 82]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Saved/Prototype_BuiltData5A66FBB44CD01B94F244F781CEA6EA6B.tmp' to '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/levels/Prototype_BuiltData.uasset'
-[2018.10.02-15.53.50:520][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CharacterBP" FILE="../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/CharacterBP.uasset" SILENT=true
-[2018.10.02-15.53.50:559][ 82]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Saved/CharacterBP64CFEE2A4621A9E9D525AD99B9879BEE.tmp' to '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/CharacterBP.uasset'
-[2018.10.02-15.53.50:959][ 98]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.02-15.53.57:257][831]BlueprintLog: New page: Compile CharacterBP
-[2018.10.02-15.53.57:792][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CharacterBP" FILE="../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/CharacterBP.uasset" SILENT=true
-[2018.10.02-15.53.57:826][873]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Saved/CharacterBP5BCC47104584A9F68C508184984BA990.tmp' to '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/CharacterBP.uasset'
+[2018.10.02-18.21.12:412][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.02-18.21.12:412][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.02-18.21.12:469][  0]LogHAL: Display: Platform has ~ 24 GB [25715929088 / 34359738368 / 24], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.02-18.21.12:469][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.02-18.21.12:469][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.02-18.21.12:469][  0]LogInit: Computer: DESKTOP-VBFITEQ
+[2018.10.02-18.21.12:469][  0]LogInit: User: Nate
+[2018.10.02-18.21.12:469][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.02-18.21.12:469][  0]LogInit: High frequency timer resolution =3.906271 MHz
+[2018.10.02-18.21.12:470][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2018.10.02-18.21.12:470][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.02-18.21.12:470][  0]LogMemory: Process Physical Memory: 100.40 MB used, 100.40 MB peak
+[2018.10.02-18.21.12:470][  0]LogMemory: Process Virtual Memory: 91.21 MB used, 91.21 MB peak
+[2018.10.02-18.21.12:470][  0]LogMemory: Physical Memory: 8821.11 MB used,  15703.51 MB free, 24524.62 MB total
+[2018.10.02-18.21.12:470][  0]LogMemory: Virtual Memory: 4640.47 MB used,  15703.51 MB free, 134217728.00 MB total
+[2018.10.02-18.21.12:483][  0]LogInit: Using OS detected language (en-US).
+[2018.10.02-18.21.12:483][  0]LogInit: Using OS detected locale (en-US).
+[2018.10.02-18.21.12:484][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.02-18.21.12:817][  0]LogStreaming: Display: Took  0.334s to InitEngineTextLocalization.
+[2018.10.02-18.21.12:817][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.02-18.21.12:846][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.02-18.21.12:846][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.02-18.21.13:058][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.02-18.21.13:058][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.02-18.21.13:103][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2018.10.02-18.21.13:103][  0]LogD3D11RHI:       4053/0/12262 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.10.02-18.21.13:104][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.02-18.21.13:104][  0]LogD3D11RHI:       0/0/12262 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.02-18.21.13:104][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.02-18.21.13:110][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.02-18.21.13:110][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.02-18.21.13:110][  0]LogWindows: EnumDisplayDevices:
+[2018.10.02-18.21.13:111][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2018.10.02-18.21.13:111][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2018.10.02-18.21.13:111][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.10.02-18.21.13:111][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.10.02-18.21.13:111][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.10.02-18.21.13:111][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2018.10.02-18.21.13:111][  0]LogD3D11RHI:   Driver Version: 411.70 (internal:24.21.14.1170, unified:411.70)
+[2018.10.02-18.21.13:111][  0]LogD3D11RHI:      Driver Date: 9-25-2018
+[2018.10.02-18.21.13:111][  0]LogRHI: Texture pool is 2837 MB (70% of 4053 MB)
+[2018.10.02-18.21.13:145][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.02-18.21.13:168][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.02-18.21.13:269][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Intermediate/Shaders/WorkingDirectory/17736/).
+[2018.10.02-18.21.13:269][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nate/AppData/Local/Temp/UnrealShaderWorkingDir/9FD2D68B42A8FF21E00CB0B2DAD1D35F/'.
+[2018.10.02-18.21.13:705][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.02-18.21.13:717][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.02-18.21.13:729][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.02-18.21.13:742][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.02-18.21.13:888][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.02-18.21.13:901][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.02-18.21.13:913][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.02-18.21.13:926][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.02-18.21.13:934][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.02-18.21.14:042][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-18.21.14:042][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-18.21.14:042][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-18.21.14:042][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-18.21.14:042][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-18.21.14:042][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-18.21.14:042][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-18.21.14:042][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-18.21.14:042][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-18.21.14:042][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-18.21.14:042][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-18.21.14:042][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-18.21.14:042][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-18.21.14:042][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-18.21.14:042][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-18.21.14:042][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-18.21.14:042][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-18.21.14:042][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-18.21.14:043][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.02-18.21.14:107][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.02-18.21.14:107][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.02-18.21.14:128][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.02-18.21.14:128][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.02-18.21.14:139][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.02-18.21.14:155][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.02-18.21.14:167][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.02-18.21.14:177][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.02-18.21.14:184][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.02-18.21.14:184][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.02-18.21.14:324][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.02-18.21.14:324][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.02-18.21.14:324][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.02-18.21.17:544][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.02-18.21.19:235][  0]LogDerivedDataCache: Loaded boot cache 1.69s 71MB C:/Users/Nate/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.02-18.21.19:236][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Nate/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.02-18.21.19:236][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.02-18.21.19:236][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.02-18.21.19:236][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.02-18.21.19:236][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.02-18.21.19:264][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.02-18.21.19:277][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nate/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.02-18.21.19:277][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.02-18.21.19:277][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.02-18.21.19:296][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.02-18.21.19:297][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.02-18.21.19:302][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.02-18.21.20:712][  0]LogAssetRegistry: FAssetRegistry took 0.0313 seconds to start up
+[2018.10.02-18.21.20:997][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.02-18.21.21:155][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.02-18.21.21:159][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.02-18.21.21:159][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.02-18.21.21:159][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.02-18.21.21:159][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.02-18.21.21:182][  0]LogNetVersion: OfficeProject 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4114413560)
+[2018.10.02-18.21.21:615][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.098363 seconds
+[2018.10.02-18.21.21:621][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.02-18.21.21:621][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.10.02-18.21.21:621][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.02-18.21.47:014][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.02-18.21.47:028][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.02-18.21.47:770][  0]SourceControl: Source control is disabled
+[2018.10.02-18.21.47:770][  0]SourceControl: Source control is disabled
+[2018.10.02-18.21.47:775][  0]SourceControl: Source control is disabled
+[2018.10.02-18.21.47:779][  0]SourceControl: Source control is disabled
+[2018.10.02-18.21.48:186][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.02-18.21.48:304][  0]LogOcInput: OculusInput pre-init called
+[2018.10.02-18.21.48:430][  0]LogEngine: Initializing Engine...
+[2018.10.02-18.21.48:431][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.02-18.21.48:432][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.02-18.21.48:432][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.02-18.21.48:433][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.02-18.21.48:433][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.02-18.21.48:609][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.02-18.21.48:622][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.02-18.21.48:636][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-18.21.48:653][  0]LogInit: FAudioDevice initialized.
+[2018.10.02-18.21.48:653][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.02-18.21.48:921][  0]LogDerivedDataCache: Saved boot cache 0.27s 71MB C:/Users/Nate/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.02-18.21.48:959][  0]LogInit: Texture streaming: Enabled
+[2018.10.02-18.21.48:992][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.02-18.21.49:006][  0]LogInit: Transaction tracking system initialized
+[2018.10.02-18.21.49:032][  0]BlueprintLog: New page: Editor Load
+[2018.10.02-18.21.49:129][  0]LocalizationService: Localization service is disabled
+[2018.10.02-18.21.49:583][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.02-18.21.49:583][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.02-18.21.49:583][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.02-18.21.49:583][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.02-18.21.49:583][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.02-18.21.49:583][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.02-18.21.49:583][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.02-18.21.50:180][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/' took 0.02s
+[2018.10.02-18.21.50:181][  0]SourceControl: Source control is disabled
+[2018.10.02-18.21.50:181][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.02-18.21.50:182][  0]LightingResults: New page: Lighting Build
+[2018.10.02-18.21.50:190][  0]MapCheck: New page: Map Check
+[2018.10.02-18.21.50:190][  0]LightingResults: New page: Lighting Build
+[2018.10.02-18.21.50:387][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.10.02-18.21.50:392][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.02-18.21.50:412][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.02-18.21.50:463][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 50.477ms to complete.
+[2018.10.02-18.21.50:463][  0]LogFileHelpers: Loading map 'Template_Default' took 0.282
+[2018.10.02-18.21.50:715][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-18.21.50:744][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-18.21.50:775][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-18.21.50:800][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-18.21.50:823][  0]LogCollectionManager: Loaded 0 collections in 0.004414 seconds
+[2018.10.02-18.21.50:884][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Saved/Collections/' took 0.01s
+[2018.10.02-18.21.50:884][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/Developers/Nate/Collections/' took 0.01s
+[2018.10.02-18.21.50:884][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/Collections/' took 0.01s
+[2018.10.02-18.21.50:885][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.10.02-18.21.50:908][  0]LogContentBrowser: Native class hierarchy populated in 0.0230 seconds. Added 2572 classes and 603 folders.
+[2018.10.02-18.21.50:917][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.02-18.21.52:683][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.10.02-18.21.52:698][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.10.02-18.21.52:854][  0]LogSlate: Took 0.000459 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.02-18.21.52:859][  0]LogSlate: Took 0.000445 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.02-18.21.52:905][  0]LogSlate: Took 0.034783 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.02-18.21.53:261][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.10.02-18.21.53:426][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.10.02-18.21.53:426][  0]LogLoad: (Engine Initialization) Total time: 44.13 seconds
+[2018.10.02-18.21.53:426][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.02-18.21.53:462][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.10.02-18.21.53:929][  0]LogSlate: Took 0.171149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.02-18.21.54:064][  1]LogAssetRegistry: Asset discovery search completed in 33.3746 seconds
+[2018.10.02-18.21.54:066][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.02-18.21.54:066][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000055 seconds (updated 0 objects)
+[2018.10.02-18.21.55:116][  4]LogSlate: Took 0.000567 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.02-18.21.59:548][348]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-18.22.00:573][471]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-18.22.08:260][325]LogAIModule: Creating AISystem for world Prototype
+[2018.10.02-18.22.08:271][325]LogAssetEditorManager: Opening Asset editor for World /Game/levels/Prototype.Prototype
+[2018.10.02-18.22.08:292][325]Cmd: MAP LOAD FILE="../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/levels/Prototype.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.02-18.22.08:293][325]LightingResults: New page: Lighting Build
+[2018.10.02-18.22.08:293][325]LoadErrors: New page: Loading map: Prototype.umap
+[2018.10.02-18.22.08:294][325]MapCheck: New page: Map Check
+[2018.10.02-18.22.08:294][325]LightingResults: New page: Lighting Build
+[2018.10.02-18.22.08:370][325]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.02-18.22.08:413][325]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.02-18.22.08:468][325]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.545ms to complete.
+[2018.10.02-18.22.08:469][325]LogFileHelpers: Loading map 'Prototype' took 0.177
+[2018.10.02-18.22.08:568][326]LogRenderer: Reallocating scene render targets to support 2048x2048 Format 10 NumSamples 1 (Frame:1).
+[2018.10.02-18.22.09:288][330]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.10.02-18.22.15:341][730]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-18.22.34:832][856]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-18.22.36:397][921]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/CharacterBP.CharacterBP
+[2018.10.02-18.22.37:858][921]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0024 seconds. Added 116 classes and 0 folders.
+[2018.10.02-18.22.39:336][921]LogSlate: Took 0.031497 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.02-18.22.39:508][922]LogSlate: Took 0.032947 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.02-18.22.41:330][ 38]LogSlate: Window 'CharacterBP' being destroyed
+[2018.10.02-18.27.17:410][883]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-18.27.19:323][111]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-18.27.19:325][111]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Computer_Mouse_Actor_BP.Computer_Mouse_Actor_BP
+[2018.10.02-18.27.49:735][715]LogBlueprint: Error: [Compiler ClickableObject] The type of  Object  is undetermined.  Connect something to  Cast To CharacterBP  to imply a specific type.
+[2018.10.02-18.27.49:735][715]LogBlueprint: Error: [Compiler ClickableObject] The type of  Object  is undetermined.  Connect something to  Cast To CharacterBP  to imply a specific type.
+[2018.10.02-18.27.49:736][715]LogBlueprint: Error: [Compiler ClickableObject] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2018.10.02-18.27.49:736][715]LogBlueprint: Error: [Compiler ClickableObject] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2018.10.02-18.27.49:736][715]LogBlueprint: Warning: [Compiler ClickableObject] [0400.44] Compile of ClickableObject failed. 4 Fatal Issue(s) 0 Warning(s) [in 3 ms] (/Game/environment/cubicle/ClickableObject.ClickableObject)
+[2018.10.02-18.27.49:763][715]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/environment/cubicle/ClickableObject.ClickableObject
+[2018.10.02-18.28.02:220][979]LogSlate: Window 'Delete Variable' being destroyed
+[2018.10.02-18.29.07:511][786]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.10.02-18.31.40:406][345]BlueprintLog: New page: Compile ClickableObject
+[2018.10.02-18.31.40:435][345]LogBlueprint: Warning: [Compiler ClickableObject] 'Computer Mouse Actor BP' does not inherit from 'Primitive Component' ( Cast To Computer_Mouse_Actor_BP  would always fail).
+[2018.10.02-18.31.40:435][345]LogBlueprint: Warning: [Compiler ClickableObject] 'Computer Mouse Actor BP' does not inherit from 'Primitive Component' ( Cast To Computer_Mouse_Actor_BP  would always fail).
+[2018.10.02-18.31.40:436][345]LogBlueprint: Error: [Compiler ClickableObject] The property associated with  Clickable Object  could not be found in '/Game/environment/cubicle/ClickableObject.ClickableObject_C'
+[2018.10.02-18.31.40:436][345]LogBlueprint: Error: [Compiler ClickableObject] The property associated with  Clickable Object  could not be found in '/Game/environment/cubicle/ClickableObject.ClickableObject_C'
+[2018.10.02-18.31.40:578][345]LogBlueprint: Warning: [Compiler ClickableObject] [0631.28] Compile of ClickableObject failed. 2 Fatal Issue(s) 2 Warning(s) [in 172 ms] (/Game/environment/cubicle/ClickableObject.ClickableObject)
+[2018.10.02-18.32.29:243][159]BlueprintLog: New page: Compile ClickableObject
+[2018.10.02-18.32.29:250][159]LogBlueprint: Warning: [Compiler ClickableObject] 'Computer Mouse Actor BP' does not inherit from 'Primitive Component' ( Cast To Computer_Mouse_Actor_BP  would always fail).
+[2018.10.02-18.32.29:251][159]LogBlueprint: Error: [Compiler ClickableObject] The property associated with  Clickable Object  could not be found in '/Game/environment/cubicle/ClickableObject.ClickableObject_C'
+[2018.10.02-18.32.29:251][159]LogBlueprint: Error: [Compiler ClickableObject] The property associated with  Clickable Object  could not be found in '/Game/environment/cubicle/ClickableObject.ClickableObject_C'
+[2018.10.02-18.32.29:381][159]LogBlueprint: Warning: [Compiler ClickableObject] [0680.09] Compile of ClickableObject failed. 2 Fatal Issue(s) 1 Warning(s) [in 137 ms] (/Game/environment/cubicle/ClickableObject.ClickableObject)
+[2018.10.02-18.32.33:311][622]BlueprintLog: New page: Compile ClickableObject
+[2018.10.02-18.32.33:322][622]LogBlueprint: Error: [Compiler ClickableObject] The property associated with  Clickable Object  could not be found in '/Game/environment/cubicle/ClickableObject.ClickableObject_C'
+[2018.10.02-18.32.33:322][622]LogBlueprint: Error: [Compiler ClickableObject] The property associated with  Clickable Object  could not be found in '/Game/environment/cubicle/ClickableObject.ClickableObject_C'
+[2018.10.02-18.32.33:442][622]LogBlueprint: Warning: [Compiler ClickableObject] [0684.15] Compile of ClickableObject failed. 2 Fatal Issue(s) 0 Warning(s) [in 131 ms] (/Game/environment/cubicle/ClickableObject.ClickableObject)
+[2018.10.02-18.33.24:543][723]BlueprintLog: New page: Compile ClickableObject
+[2018.10.02-18.33.24:550][723]LogBlueprint: Error: [Compiler ClickableObject] The property associated with  Clickable Object  could not be found in '/Game/environment/cubicle/ClickableObject.ClickableObject_C'
+[2018.10.02-18.33.24:550][723]LogBlueprint: Error: [Compiler ClickableObject] The property associated with  Clickable Object  could not be found in '/Game/environment/cubicle/ClickableObject.ClickableObject_C'
+[2018.10.02-18.33.24:682][723]LogBlueprint: Warning: [Compiler ClickableObject] [0735.39] Compile of ClickableObject failed. 2 Fatal Issue(s) 0 Warning(s) [in 139 ms] (/Game/environment/cubicle/ClickableObject.ClickableObject)
+[2018.10.02-18.33.27:149][ 13]BlueprintLog: New page: Compile Computer_Mouse_Actor_BP
+[2018.10.02-18.33.29:058][218]BlueprintLog: New page: Compile ClickableObject
+[2018.10.02-18.33.55:279][230]BlueprintLog: New page: Compile Computer_Mouse_Actor_BP
+[2018.10.02-18.33.57:026][419]BlueprintLog: New page: Compile CharacterBP
+[2018.10.02-18.34.04:010][103]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-18.34.04:040][103]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2018.10.02-18.34.04:040][103]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-18.34.04:053][103]PIE: New page: PIE session: Prototype (Oct 2, 2018, 10:34:04 AM)
+[2018.10.02-18.34.04:053][103]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_Prototype
+[2018.10.02-18.34.04:058][103]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004728s)
+[2018.10.02-18.34.04:059][103]LogAIModule: Creating AISystem for world Prototype
+[2018.10.02-18.34.04:059][103]LogPlayLevel: PIE: World Init took: (0.001099s)
+[2018.10.02-18.34.04:059][103]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/Prototype.Prototype to /Game/levels/UEDPIE_0_Prototype.Prototype (0.005997s)
+[2018.10.02-18.34.04:099][103]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-18.34.04:113][103]LogInit: FAudioDevice initialized.
+[2018.10.02-18.34.04:158][103]LogLoad: Game class is 'MouseTest_Gamemode_C'
+[2018.10.02-18.34.04:161][103]LogWorld: Bringing World /Game/levels/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2018.10.02-14.34.04
+[2018.10.02-18.34.04:162][103]LogWorld: Bringing up level for play took: 0.002449
+[2018.10.02-18.34.04:194][103]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2018.10.02-18.34.04:197][103]PIE: Play in editor start time for /Game/levels/UEDPIE_0_Prototype 0.13
+[2018.10.02-18.34.04:197][103]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2018.10.02-18.34.11:935][622]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2018.10.02-18.34.11:936][622]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-18.34.11:992][622]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-18.34.11:992][622]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2018.10.02-18.34.12:022][622]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-18.34.12:049][623]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.10.02-18.34.13:076][685]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-18.34.27:250][675]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-18.34.43:518][353]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/environment/cubicle/WireCutterObject.WireCutterObject
+[2018.10.02-18.35.31:229][283]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-18.35.31:304][292]BlueprintLog: New page: Compile WireCutterObject
+[2018.10.02-18.35.35:130][675]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Saved/PrototypeCD850F29419E77049EF61FBBB87AF71F.tmp' to '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/levels/Prototype.umap'
+[2018.10.02-18.35.35:165][675]LogFileHelpers: Saving map 'Prototype' took 0.327
+[2018.10.02-18.35.35:167][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CharacterBP" FILE="../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/CharacterBP.uasset" SILENT=true
+[2018.10.02-18.35.35:209][675]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Saved/CharacterBP65CD2EC24650D3A0096E088684326F93.tmp' to '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/CharacterBP.uasset'
+[2018.10.02-18.35.35:261][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Computer_Mouse_Actor_BP" FILE="../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/Computer_Mouse_Actor_BP.uasset" SILENT=true
+[2018.10.02-18.35.35:301][675]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Saved/Computer_Mouse_Actor_BPDBB28A514A0BB7A08B3C6C908626D141.tmp' to '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/Computer_Mouse_Actor_BP.uasset'
+[2018.10.02-18.35.35:379][675]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Saved/ClickableObject18F9B33849A909EC66EF18BD6EF866F6.tmp' to '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/ClickableObject.uasset'
+[2018.10.02-18.35.35:428][675]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Saved/WireCutterObject78529F4246DC8BF301802E90FFB591EF.tmp' to '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/WireCutterObject.uasset'
+[2018.10.02-18.35.42:136][101]Cmd: TRANSACTION UNDO
+[2018.10.02-18.35.42:136][101]LogEditorTransaction: Undo Create Actors
+[2018.10.02-18.35.49:669][422]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-18.35.53:867][664]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-18.35.59:052][263]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-18.35.59:127][272]BlueprintLog: New page: Compile WireCutterObject
+[2018.10.02-18.36.04:254][595]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-18.36.09:627][210]LogEditorTransaction: Undo Modify Component(s)
+[2018.10.02-18.36.10:779][344]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-18.36.14:293][558]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane6)
+[2018.10.02-18.36.17:149][725]LogEditorViewport: Clicking on Actor (LMB): WireCutterObject_C (WireCutterObject)
+[2018.10.02-18.36.23:993][135]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-18.36.24:071][140]Cmd: MODE GRID=0
+[2018.10.02-18.36.36:521][879]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.02-18.36.53:123][918]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane3)
+[2018.10.02-18.36.54:398][996]Cmd: DELETE
+[2018.10.02-18.36.54:398][996]Cmd: ACTOR DELETE
+[2018.10.02-18.36.54:403][996]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.02-18.36.54:442][996]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2018.10.02-18.36.54:963][ 31]LogEditorViewport: Clicking on Actor (LMB): WireCutterObject_C (WireCutterObject)
+[2018.10.02-18.37.01:791][457]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-18.37.27:571][493]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-18.37.30:258][815]BlueprintLog: New page: Compile WireCutterObject
+[2018.10.02-18.37.59:032][212]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-18.38.01:619][483]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Saved/Prototype14C7D78D4FC4F3654A35ADAC7D28DAD8.tmp' to '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/levels/Prototype.umap'
+[2018.10.02-18.38.01:649][483]LogFileHelpers: Saving map 'Prototype' took 0.297
+[2018.10.02-18.38.01:674][483]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Saved/ClickableObject7AA538A54FE10E39E634FB892BFFF5A5.tmp' to '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/ClickableObject.uasset'
+[2018.10.02-18.38.01:729][483]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Saved/WireCutterObjectDABAE9584F6E29CAA47FCC9394D5B6DA.tmp' to '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/WireCutterObject.uasset'
+[2018.10.02-18.38.09:678][430]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-18.38.09:745][438]BlueprintLog: New page: Compile WireCutterObject
+[2018.10.02-18.38.10:438][490]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Saved/WireCutterObjectC5B118064D6159AC51C56FABF05D9CCE.tmp' to '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/WireCutterObject.uasset'
+[2018.10.02-18.38.13:194][820]BlueprintLog: New page: Compile ClickableObject
+[2018.10.02-18.38.21:058][440]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-18.38.21:087][440]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2018.10.02-18.38.21:087][440]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-18.38.21:087][440]PIE: New page: PIE session: Prototype (Oct 2, 2018, 10:38:21 AM)
+[2018.10.02-18.38.21:087][440]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_Prototype
+[2018.10.02-18.38.21:091][440]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004528s)
+[2018.10.02-18.38.21:092][440]LogAIModule: Creating AISystem for world Prototype
+[2018.10.02-18.38.21:092][440]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2018.10.02-18.38.21:092][440]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/Prototype.Prototype to /Game/levels/UEDPIE_0_Prototype.Prototype (0.005584s)
+[2018.10.02-18.38.21:128][440]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-18.38.21:144][440]LogInit: FAudioDevice initialized.
+[2018.10.02-18.38.21:177][440]LogLoad: Game class is 'MouseTest_Gamemode_C'
+[2018.10.02-18.38.21:179][440]LogWorld: Bringing World /Game/levels/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2018.10.02-14.38.21
+[2018.10.02-18.38.21:180][440]LogWorld: Bringing up level for play took: 0.001515
+[2018.10.02-18.38.21:192][440]PIE: Play in editor start time for /Game/levels/UEDPIE_0_Prototype -0.875
+[2018.10.02-18.38.21:192][440]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2018.10.02-18.38.25:807][747]LogBlueprintUserMessages: [Computer_Mouse_Actor_BP_2] Hello
+[2018.10.02-18.38.30:047][ 30]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2018.10.02-18.38.30:047][ 30]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-18.38.30:114][ 30]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-18.38.30:115][ 30]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2018.10.02-18.38.30:144][ 30]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-18.38.30:169][ 31]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.10.02-18.38.31:121][ 89]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-18.38.59:780][340]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-18.39.06:869][179]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-18.39.49:257][ 69]LogClass: Warning: In asset 'None', there is an enum property of type 'EHorizTextAligment' with an invalid value of ''
+[2018.10.02-18.39.49:257][ 69]LogClass: Warning: In asset 'None', there is an enum property of type 'EHorizTextAligment' with an invalid value of ''
+[2018.10.02-18.39.49:257][ 69]LogClass: Warning: In asset 'None', there is an enum property of type 'EHorizTextAligment' with an invalid value of ''
+[2018.10.02-18.39.49:266][ 69]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-18.39.50:727][235]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-18.39.56:297][881]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-18.40.10:098][449]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-18.40.37:459][557]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-18.40.59:681][130]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-18.40.59:756][139]BlueprintLog: New page: Compile WireCutterObject
+[2018.10.02-18.41.00:453][188]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Saved/WireCutterObject1DE375F8477D14C795B0BBA6B4E01DBC.tmp' to '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/WireCutterObject.uasset'
+[2018.10.02-18.41.00:945][246]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-18.41.13:016][986]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2018.10.02-18.41.14:888][102]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.10.02-18.41.19:422][363]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-18.41.20:864][453]LogEditorActor: Deleted Actor: TextRenderActor
+[2018.10.02-18.41.20:895][453]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2018.10.02-18.41.34:695][468]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-18.41.39:390][  5]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-18.41.39:473][ 15]BlueprintLog: New page: Compile WireCutterObject
+[2018.10.02-18.41.41:162][139]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.10.02-18.41.43:031][253]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-18.41.50:053][ 20]LogSlate: Window 'Color Picker' being destroyed
+[2018.10.02-18.41.51:505][188]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-18.41.51:596][199]BlueprintLog: New page: Compile WireCutterObject
+[2018.10.02-18.41.54:054][357]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-18.41.54:089][357]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2018.10.02-18.41.54:089][357]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-18.41.54:089][357]PIE: New page: PIE session: Prototype (Oct 2, 2018, 10:41:54 AM)
+[2018.10.02-18.41.54:090][357]LogPlayLevel: Creating play world package: /Game/levels/UEDPIE_0_Prototype
+[2018.10.02-18.41.54:095][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005666s)
+[2018.10.02-18.41.54:096][357]LogAIModule: Creating AISystem for world Prototype
+[2018.10.02-18.41.54:096][357]LogPlayLevel: PIE: World Init took: (0.001066s)
+[2018.10.02-18.41.54:096][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/levels/Prototype.Prototype to /Game/levels/UEDPIE_0_Prototype.Prototype (0.006966s)
+[2018.10.02-18.41.54:140][357]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-18.41.54:156][357]LogInit: FAudioDevice initialized.
+[2018.10.02-18.41.54:188][357]LogLoad: Game class is 'MouseTest_Gamemode_C'
+[2018.10.02-18.41.54:190][357]LogWorld: Bringing World /Game/levels/UEDPIE_0_Prototype.Prototype up for play (max tick rate 0) at 2018.10.02-14.41.54
+[2018.10.02-18.41.54:190][357]LogWorld: Bringing up level for play took: 0.001584
+[2018.10.02-18.41.54:203][357]PIE: Play in editor start time for /Game/levels/UEDPIE_0_Prototype 0.137
+[2018.10.02-18.41.54:203][357]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2018.10.02-18.42.00:284][762]LogBlueprintUserMessages: [Computer_Mouse_Actor_BP_2] Hello
+[2018.10.02-18.42.02:421][905]LogBlueprintUserMessages: [Computer_Mouse_Actor_BP_2] Hello
+[2018.10.02-18.42.02:601][917]LogBlueprintUserMessages: [Computer_Mouse_Actor_BP_2] Hello
+[2018.10.02-18.42.02:781][929]LogBlueprintUserMessages: [Computer_Mouse_Actor_BP_2] Hello
+[2018.10.02-18.42.02:916][938]LogBlueprintUserMessages: [Computer_Mouse_Actor_BP_2] Hello
+[2018.10.02-18.42.03:081][949]LogBlueprintUserMessages: [Computer_Mouse_Actor_BP_2] Hello
+[2018.10.02-18.42.03:246][960]LogBlueprintUserMessages: [Computer_Mouse_Actor_BP_2] Hello
+[2018.10.02-18.42.08:899][337]LogBlueprintUserMessages: [Computer_Mouse_Actor_BP_2] Hello
+[2018.10.02-18.42.09:033][346]LogBlueprintUserMessages: [Computer_Mouse_Actor_BP_2] Hello
+[2018.10.02-18.42.09:183][356]LogBlueprintUserMessages: [Computer_Mouse_Actor_BP_2] Hello
+[2018.10.02-18.42.09:347][367]LogBlueprintUserMessages: [Computer_Mouse_Actor_BP_2] Hello
+[2018.10.02-18.42.12:138][553]LogBlueprintUserMessages: [Computer_Mouse_Actor_BP_2] Hello
+[2018.10.02-18.42.12:287][563]LogBlueprintUserMessages: [Computer_Mouse_Actor_BP_2] Hello
+[2018.10.02-18.42.16:821][866]LogBlueprintUserMessages: [Computer_Mouse_Actor_BP_2] Hello
+[2018.10.02-18.42.16:955][875]LogBlueprintUserMessages: [Computer_Mouse_Actor_BP_2] Hello
+[2018.10.02-18.42.17:134][887]LogBlueprintUserMessages: [Computer_Mouse_Actor_BP_2] Hello
+[2018.10.02-18.42.17:344][901]LogBlueprintUserMessages: [Computer_Mouse_Actor_BP_2] Hello
+[2018.10.02-18.42.17:522][913]LogBlueprintUserMessages: [Computer_Mouse_Actor_BP_2] Hello
+[2018.10.02-18.42.17:657][922]LogBlueprintUserMessages: [Computer_Mouse_Actor_BP_2] Hello
+[2018.10.02-18.42.17:821][933]LogBlueprintUserMessages: [Computer_Mouse_Actor_BP_2] Hello
+[2018.10.02-18.42.20:109][ 86]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2018.10.02-18.42.20:110][ 86]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-18.42.20:171][ 86]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-18.42.20:172][ 86]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/levels/Prototype.Prototype:PersistentLevel' has LevelScriptBlueprint '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype' with GeneratedClass '/Game/levels/Prototype.Prototype_C' with ClassGeneratedBy '/Game/levels/Prototype.Prototype:PersistentLevel.Prototype'
+[2018.10.02-18.42.20:202][ 86]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-18.42.20:226][ 87]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.10.02-18.42.22:004][195]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-18.42.23:014][252]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-18.42.24:358][252]LogSlate: Window 'Save Content' being destroyed
+[2018.10.02-18.42.26:330][364]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-18.42.27:357][423]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-18.42.27:632][423]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Saved/Prototype94F8F5AD4495D9EACA7B3E8EDDDEA319.tmp' to '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/levels/Prototype.umap'
+[2018.10.02-18.42.27:663][423]LogFileHelpers: Saving map 'Prototype' took 0.301
+[2018.10.02-18.42.27:712][423]LogSavePackage: Moving '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Saved/WireCutterObjectC45528F447977918D40198B04FB258FA.tmp' to '../../../../../../Users/Nate/Documents/GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/WireCutterObject.uasset'
