@@ -1,0 +1,916 @@
+﻿Log file open, 10/03/18 00:14:44
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: OfficeProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.277914
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.114s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: F:/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.03-04.14.44:843][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.03-04.14.44:844][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.03-04.14.44:865][  0]LogHAL: Display: Platform has ~ 32 GB [34305867776 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.03-04.14.44:865][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.03-04.14.44:865][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.03-04.14.44:865][  0]LogInit: Computer: DESKTOP-QQJR9T6
+[2018.10.03-04.14.44:865][  0]LogInit: User: Djano
+[2018.10.03-04.14.44:865][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.03-04.14.44:865][  0]LogInit: High frequency timer resolution =3.906269 MHz
+[2018.10.03-04.14.44:865][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.10.03-04.14.44:865][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.03-04.14.44:865][  0]LogMemory: Process Physical Memory: 100.32 MB used, 100.32 MB peak
+[2018.10.03-04.14.44:865][  0]LogMemory: Process Virtual Memory: 91.04 MB used, 91.04 MB peak
+[2018.10.03-04.14.44:865][  0]LogMemory: Physical Memory: 11737.97 MB used,  20978.66 MB free, 32716.63 MB total
+[2018.10.03-04.14.44:865][  0]LogMemory: Virtual Memory: 4644.90 MB used,  20978.66 MB free, 134217728.00 MB total
+[2018.10.03-04.14.44:881][  0]LogInit: Using OS detected language (en-US).
+[2018.10.03-04.14.44:881][  0]LogInit: Using OS detected locale (en-US).
+[2018.10.03-04.14.44:882][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.03-04.14.45:235][  0]LogStreaming: Display: Took  0.354s to InitEngineTextLocalization.
+[2018.10.03-04.14.45:235][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.03-04.14.45:285][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.03-04.14.45:285][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.03-04.14.45:631][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.03-04.14.45:631][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.03-04.14.45:685][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.10.03-04.14.45:685][  0]LogD3D11RHI:       4043/0/16358 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2018.10.03-04.14.45:686][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.03-04.14.45:686][  0]LogD3D11RHI:       0/0/16358 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.03-04.14.45:686][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.03-04.14.45:694][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.03-04.14.45:694][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.03-04.14.45:694][  0]LogWindows: EnumDisplayDevices:
+[2018.10.03-04.14.45:694][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.10.03-04.14.45:694][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.10.03-04.14.45:695][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.10.03-04.14.45:695][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.10.03-04.14.45:695][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.10.03-04.14.45:695][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.10.03-04.14.45:695][  0]LogD3D11RHI:   Driver Version: 398.36 (internal:24.21.13.9836, unified:398.36)
+[2018.10.03-04.14.45:695][  0]LogD3D11RHI:      Driver Date: 6-24-2018
+[2018.10.03-04.14.45:695][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2018.10.03-04.14.45:728][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.03-04.14.45:744][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.03-04.14.45:796][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../GitHub/OfficeGame/OfficeProject/Intermediate/Shaders/WorkingDirectory/3628/).
+[2018.10.03-04.14.45:796][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Djano/AppData/Local/Temp/UnrealShaderWorkingDir/10954D8E4C56A42D02A336B29E46F846/'.
+[2018.10.03-04.14.46:032][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.03-04.14.46:043][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.03-04.14.46:054][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.03-04.14.46:064][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.03-04.14.46:075][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.03-04.14.46:086][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.03-04.14.46:097][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.03-04.14.46:110][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.03-04.14.46:115][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.03-04.14.46:188][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-04.14.46:188][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-04.14.46:188][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-04.14.46:188][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-04.14.46:188][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-04.14.46:188][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-04.14.46:188][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-04.14.46:188][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-04.14.46:188][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-04.14.46:188][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-04.14.46:188][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-04.14.46:188][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-04.14.46:188][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-04.14.46:188][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-04.14.46:188][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-04.14.46:188][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-04.14.46:188][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-04.14.46:188][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.03-04.14.46:190][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.03-04.14.46:248][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.03-04.14.46:248][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.03-04.14.46:275][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.03-04.14.46:275][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.03-04.14.46:286][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.03-04.14.46:297][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.03-04.14.46:307][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.03-04.14.46:319][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.03-04.14.46:326][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.03-04.14.46:326][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.03-04.14.46:365][  0]LogXGEController: Cleaning working directory: C:/Users/Djano/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.03-04.14.46:365][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.03-04.14.46:365][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.03-04.14.46:365][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.03-04.14.47:002][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.03-04.14.47:054][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/Djano/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.03-04.14.47:054][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Djano/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.03-04.14.47:054][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GitHub/OfficeGame/OfficeProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.03-04.14.47:054][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.03-04.14.47:054][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GitHub/OfficeGame/OfficeProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.03-04.14.47:054][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.03-04.14.47:065][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.03-04.14.47:077][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Djano/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.03-04.14.47:077][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.03-04.14.47:077][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.03-04.14.47:093][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.03-04.14.47:094][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.03-04.14.47:095][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.03-04.14.47:176][  0]LogAssetRegistry: FAssetRegistry took 0.0251 seconds to start up
+[2018.10.03-04.14.47:470][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.03-04.14.47:580][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.03-04.14.47:583][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.03-04.14.47:583][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.03-04.14.47:583][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.03-04.14.47:583][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.03-04.14.47:617][  0]LogNetVersion: OfficeProject 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4114413560)
+[2018.10.03-04.14.48:081][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.112405 seconds
+[2018.10.03-04.14.48:088][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.03-04.14.48:088][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.10.03-04.14.48:088][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.03-04.14.49:051][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.03-04.14.49:064][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.03-04.14.49:206][  0]SourceControl: Source control is disabled
+[2018.10.03-04.14.49:206][  0]SourceControl: Source control is disabled
+[2018.10.03-04.14.49:207][  0]SourceControl: Source control is disabled
+[2018.10.03-04.14.49:208][  0]SourceControl: Source control is disabled
+[2018.10.03-04.14.49:400][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.03-04.14.49:515][  0]LogOcInput: OculusInput pre-init called
+[2018.10.03-04.14.49:569][  0]LogEngine: Initializing Engine...
+[2018.10.03-04.14.49:570][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.03-04.14.49:571][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.03-04.14.49:571][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.03-04.14.49:571][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.03-04.14.49:571][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.03-04.14.49:754][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.03-04.14.49:762][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.03-04.14.49:779][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.03-04.14.49:799][  0]LogInit: FAudioDevice initialized.
+[2018.10.03-04.14.49:799][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.03-04.14.49:870][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/Djano/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.03-04.14.49:891][  0]LogInit: Texture streaming: Enabled
+[2018.10.03-04.14.49:903][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.03-04.14.49:913][  0]LogInit: Transaction tracking system initialized
+[2018.10.03-04.14.49:926][  0]BlueprintLog: New page: Editor Load
+[2018.10.03-04.14.49:978][  0]LocalizationService: Localization service is disabled
+[2018.10.03-04.14.50:194][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.03-04.14.50:194][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.03-04.14.50:194][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.03-04.14.50:194][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.03-04.14.50:194][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.03-04.14.50:194][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.03-04.14.50:194][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.03-04.14.50:295][  0]LogFileCache: Scanning file cache for directory 'F:/GitHub/OfficeGame/OfficeProject/Content/' took 0.01s
+[2018.10.03-04.14.50:295][  0]SourceControl: Source control is disabled
+[2018.10.03-04.14.50:295][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.03-04.14.50:295][  0]LightingResults: New page: Lighting Build
+[2018.10.03-04.14.50:298][  0]MapCheck: New page: Map Check
+[2018.10.03-04.14.50:298][  0]LightingResults: New page: Lighting Build
+[2018.10.03-04.14.50:470][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.10.03-04.14.50:475][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.03-04.14.50:496][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.03-04.14.50:551][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 55.245ms to complete.
+[2018.10.03-04.14.50:551][  0]LogFileHelpers: Loading map 'Template_Default' took 0.257
+[2018.10.03-04.14.50:746][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.03-04.14.50:752][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.03-04.14.50:759][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.03-04.14.50:766][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.03-04.14.50:770][  0]LogCollectionManager: Loaded 0 collections in 0.000785 seconds
+[2018.10.03-04.14.50:838][  0]LogFileCache: Scanning file cache for directory 'F:/GitHub/OfficeGame/OfficeProject/Saved/Collections/' took 0.01s
+[2018.10.03-04.14.50:839][  0]LogFileCache: Scanning file cache for directory 'F:/GitHub/OfficeGame/OfficeProject/Content/Developers/Djano/Collections/' took 0.01s
+[2018.10.03-04.14.50:839][  0]LogFileCache: Scanning file cache for directory 'F:/GitHub/OfficeGame/OfficeProject/Content/Collections/' took 0.01s
+[2018.10.03-04.14.50:839][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.10.03-04.14.50:864][  0]LogContentBrowser: Native class hierarchy populated in 0.0247 seconds. Added 2572 classes and 603 folders.
+[2018.10.03-04.14.50:871][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.03-04.14.50:940][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.03-04.14.50:946][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.10.03-04.14.51:000][  0]LogSlate: Took 0.000520 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.03-04.14.51:002][  0]LogSlate: Took 0.000380 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.03-04.14.51:007][  0]LogSlate: Took 0.000448 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.03-04.14.51:077][  0]LogRenderer: Reallocating scene render targets to support 1208x628 Format 10 NumSamples 1 (Frame:1).
+[2018.10.03-04.14.51:197][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.03-04.14.51:197][  0]LogLoad: (Engine Initialization) Total time: 8.15 seconds
+[2018.10.03-04.14.51:197][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.03-04.14.51:206][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.03-04.14.51:226][  0]LogAssetRegistry: Asset discovery search completed in 4.0717 seconds
+[2018.10.03-04.14.51:227][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.03-04.14.51:227][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000092 seconds (updated 0 objects)
+[2018.10.03-04.14.51:229][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.03-04.14.51:255][  0]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.03-04.14.57:835][781]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-04.14.57:996][798]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.03-04.14.58:164][798]LogAIModule: Creating AISystem for world Prototype
+[2018.10.03-04.14.58:173][798]LogAssetEditorManager: Opening Asset editor for World /Game/levels/Prototype.Prototype
+[2018.10.03-04.14.58:192][798]Cmd: MAP LOAD FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/levels/Prototype.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.03-04.14.58:192][798]LightingResults: New page: Lighting Build
+[2018.10.03-04.14.58:192][798]LoadErrors: New page: Loading map: Prototype.umap
+[2018.10.03-04.14.58:193][798]MapCheck: New page: Map Check
+[2018.10.03-04.14.58:193][798]LightingResults: New page: Lighting Build
+[2018.10.03-04.14.58:272][798]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.03-04.14.58:315][798]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.03-04.14.58:371][798]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 55.106ms to complete.
+[2018.10.03-04.14.58:372][798]LogFileHelpers: Loading map 'Prototype' took 0.181
+[2018.10.03-04.14.58:440][800]LogRenderer: Reallocating scene render targets to support 2048x2048 Format 10 NumSamples 1 (Frame:1).
+[2018.10.03-04.15.31:136][986]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-04.45.27:573][264]LogMetaData: Removing '/Game/blueprints/ClickableObject.ClickableObject:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/environment/cubicle/ClickableObject.PackageMetaData'
+[2018.10.03-04.45.27:573][264]LogMetaData: Removing '/Game/blueprints/ClickableObject.ClickableObject_C' ref from Metadata '/Game/environment/cubicle/ClickableObject.PackageMetaData'
+[2018.10.03-04.45.27:573][264]LogMetaData: Removing '/Game/blueprints/ClickableObject.ClickableObject:EventGraph.K2Node_Event_0' ref from Metadata '/Game/environment/cubicle/ClickableObject.PackageMetaData'
+[2018.10.03-04.45.27:573][264]LogMetaData: Removing '/Game/blueprints/ClickableObject.ClickableObject:EventGraph.K2Node_Event_1' ref from Metadata '/Game/environment/cubicle/ClickableObject.PackageMetaData'
+[2018.10.03-04.45.27:573][264]LogMetaData: Removing '/Game/blueprints/ClickableObject.ClickableObject:EventGraph.K2Node_Event_2' ref from Metadata '/Game/environment/cubicle/ClickableObject.PackageMetaData'
+[2018.10.03-04.45.27:573][264]LogMetaData: Removing '/Game/blueprints/ClickableObject.SKEL_ClickableObject_C:ReceiveBeginPlay' ref from Metadata '/Game/environment/cubicle/ClickableObject.PackageMetaData'
+[2018.10.03-04.45.27:573][264]LogMetaData: Removing '/Game/blueprints/ClickableObject.SKEL_ClickableObject_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/environment/cubicle/ClickableObject.PackageMetaData'
+[2018.10.03-04.45.27:573][264]LogMetaData: Removing '/Game/blueprints/ClickableObject.SKEL_ClickableObject_C:ReceiveTick' ref from Metadata '/Game/environment/cubicle/ClickableObject.PackageMetaData'
+[2018.10.03-04.45.27:573][264]LogMetaData: Removing '/Game/blueprints/ClickableObject.SKEL_ClickableObject_C:BndEvt__Sphere_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/environment/cubicle/ClickableObject.PackageMetaData'
+[2018.10.03-04.45.27:573][264]LogMetaData: Removing '/Game/blueprints/ClickableObject.SKEL_ClickableObject_C:BndEvt__Sphere_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature' ref from Metadata '/Game/environment/cubicle/ClickableObject.PackageMetaData'
+[2018.10.03-04.45.27:573][264]LogMetaData: Removing '/Game/blueprints/ClickableObject.SKEL_ClickableObject_C:DefaultSceneRoot' ref from Metadata '/Game/environment/cubicle/ClickableObject.PackageMetaData'
+[2018.10.03-04.45.27:573][264]LogMetaData: Removing '/Game/blueprints/ClickableObject.SKEL_ClickableObject_C:Sphere' ref from Metadata '/Game/environment/cubicle/ClickableObject.PackageMetaData'
+[2018.10.03-04.45.27:573][264]LogMetaData: Removing '/Game/blueprints/ClickableObject.SKEL_ClickableObject_C:UserConstructionScript' ref from Metadata '/Game/environment/cubicle/ClickableObject.PackageMetaData'
+[2018.10.03-04.45.27:573][264]LogMetaData: Removing '/Game/blueprints/ClickableObject.SKEL_ClickableObject_C' ref from Metadata '/Game/environment/cubicle/ClickableObject.PackageMetaData'
+[2018.10.03-04.45.27:573][264]LogMetaData: Removing '/Game/blueprints/ClickableObject.ClickableObject_C:DefaultSceneRoot' ref from Metadata '/Game/environment/cubicle/ClickableObject.PackageMetaData'
+[2018.10.03-04.45.27:573][264]LogMetaData: Removing '/Game/blueprints/ClickableObject.ClickableObject_C:Sphere' ref from Metadata '/Game/environment/cubicle/ClickableObject.PackageMetaData'
+[2018.10.03-04.45.27:573][264]LogMetaData: Removing '/Game/blueprints/ClickableObject.ClickableObject_C:UserConstructionScript' ref from Metadata '/Game/environment/cubicle/ClickableObject.PackageMetaData'
+[2018.10.03-04.45.27:631][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/ClickableObject" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/blueprints/ClickableObject.uasset" SILENT=true
+[2018.10.03-04.45.27:651][264]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/ClickableObject04827BD6400D35C2077178B741FC88A4.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/blueprints/ClickableObject.uasset'
+[2018.10.03-04.45.27:844][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/environment/cubicle/WireCutterObject" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/WireCutterObject.uasset" SILENT=true
+[2018.10.03-04.45.27:874][264]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/WireCutterObjectEB3286AC49411634EEC964AC344FBA61.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/WireCutterObject.uasset'
+[2018.10.03-04.48.52:821][ 82]LogMetaData: Removing '/Game/blueprints/WireCutterObject.WireCutterObject:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/environment/cubicle/WireCutterObject.PackageMetaData'
+[2018.10.03-04.48.52:821][ 82]LogMetaData: Removing '/Game/blueprints/WireCutterObject.WireCutterObject_C' ref from Metadata '/Game/environment/cubicle/WireCutterObject.PackageMetaData'
+[2018.10.03-04.48.52:821][ 82]LogMetaData: Removing '/Game/blueprints/WireCutterObject.WireCutterObject:EventGraph.K2Node_Event_0' ref from Metadata '/Game/environment/cubicle/WireCutterObject.PackageMetaData'
+[2018.10.03-04.48.52:821][ 82]LogMetaData: Removing '/Game/blueprints/WireCutterObject.WireCutterObject:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/environment/cubicle/WireCutterObject.PackageMetaData'
+[2018.10.03-04.48.52:821][ 82]LogMetaData: Removing '/Game/blueprints/WireCutterObject.WireCutterObject:EventGraph.K2Node_Event_1' ref from Metadata '/Game/environment/cubicle/WireCutterObject.PackageMetaData'
+[2018.10.03-04.48.52:821][ 82]LogMetaData: Removing '/Game/blueprints/WireCutterObject.WireCutterObject:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/environment/cubicle/WireCutterObject.PackageMetaData'
+[2018.10.03-04.48.52:821][ 82]LogMetaData: Removing '/Game/blueprints/WireCutterObject.WireCutterObject:EventGraph.K2Node_Event_2' ref from Metadata '/Game/environment/cubicle/WireCutterObject.PackageMetaData'
+[2018.10.03-04.48.52:821][ 82]LogMetaData: Removing '/Game/blueprints/WireCutterObject.WireCutterObject:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/environment/cubicle/WireCutterObject.PackageMetaData'
+[2018.10.03-04.48.52:821][ 82]LogMetaData: Removing '/Game/blueprints/WireCutterObject.SKEL_WireCutterObject_C:ReceiveBeginPlay' ref from Metadata '/Game/environment/cubicle/WireCutterObject.PackageMetaData'
+[2018.10.03-04.48.52:821][ 82]LogMetaData: Removing '/Game/blueprints/WireCutterObject.SKEL_WireCutterObject_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/environment/cubicle/WireCutterObject.PackageMetaData'
+[2018.10.03-04.48.52:821][ 82]LogMetaData: Removing '/Game/blueprints/WireCutterObject.SKEL_WireCutterObject_C:ReceiveTick' ref from Metadata '/Game/environment/cubicle/WireCutterObject.PackageMetaData'
+[2018.10.03-04.48.52:821][ 82]LogMetaData: Removing '/Game/blueprints/WireCutterObject.SKEL_WireCutterObject_C:Plane' ref from Metadata '/Game/environment/cubicle/WireCutterObject.PackageMetaData'
+[2018.10.03-04.48.52:821][ 82]LogMetaData: Removing '/Game/blueprints/WireCutterObject.SKEL_WireCutterObject_C:TextRender' ref from Metadata '/Game/environment/cubicle/WireCutterObject.PackageMetaData'
+[2018.10.03-04.48.52:821][ 82]LogMetaData: Removing '/Game/blueprints/WireCutterObject.SKEL_WireCutterObject_C:UserConstructionScript' ref from Metadata '/Game/environment/cubicle/WireCutterObject.PackageMetaData'
+[2018.10.03-04.48.52:821][ 82]LogMetaData: Removing '/Game/blueprints/WireCutterObject.SKEL_WireCutterObject_C' ref from Metadata '/Game/environment/cubicle/WireCutterObject.PackageMetaData'
+[2018.10.03-04.48.52:821][ 82]LogMetaData: Removing '/Game/blueprints/WireCutterObject.WireCutterObject_C:Plane' ref from Metadata '/Game/environment/cubicle/WireCutterObject.PackageMetaData'
+[2018.10.03-04.48.52:821][ 82]LogMetaData: Removing '/Game/blueprints/WireCutterObject.WireCutterObject_C:TextRender' ref from Metadata '/Game/environment/cubicle/WireCutterObject.PackageMetaData'
+[2018.10.03-04.48.52:821][ 82]LogMetaData: Removing '/Game/blueprints/WireCutterObject.WireCutterObject_C:UserConstructionScript' ref from Metadata '/Game/environment/cubicle/WireCutterObject.PackageMetaData'
+[2018.10.03-04.48.52:872][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/WireCutterObject" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/blueprints/WireCutterObject.uasset" SILENT=true
+[2018.10.03-04.48.52:894][ 82]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/WireCutterObject6D38971A4F7B5F39B56931A29C242D49.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/blueprints/WireCutterObject.uasset'
+[2018.10.03-04.48.52:899][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/environment/cubicle/WireCutterObject" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/WireCutterObject.uasset" SILENT=true
+[2018.10.03-04.48.52:921][ 82]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/WireCutterObject46A80EC242FF45C8131E1D872A9AE4F3.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/WireCutterObject.uasset'
+[2018.10.03-04.49.29:059][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/levels/Prototype" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Saved/Autosaves/Game/levels/Prototype_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.10.03-04.49.29:183][228]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/Prototype_Auto17642A1114528D4954396D29E16FF92E1.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Saved/Autosaves/Game/levels/Prototype_Auto1.umap'
+[2018.10.03-04.49.29:186][228]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/levels/Prototype' took 0.147
+[2018.10.03-04.49.29:186][228]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.147
+[2018.10.03-04.52.20:085][984]LogMetaData: Removing '/Game/objects/models/cubicle_pCube4.cubicle_pCube4' ref from Metadata '/Game/environment/cubicle/cubicle_pCube4.PackageMetaData'
+[2018.10.03-04.52.20:094][984]LogMetaData: Removing '/Game/objects/models/cubicle_pCube5.cubicle_pCube5' ref from Metadata '/Game/environment/cubicle/cubicle_pCube5.PackageMetaData'
+[2018.10.03-04.52.20:104][984]LogMetaData: Removing '/Game/objects/models/cubicle_pCube6.cubicle_pCube6' ref from Metadata '/Game/environment/cubicle/cubicle_pCube6.PackageMetaData'
+[2018.10.03-04.52.20:113][984]LogMetaData: Removing '/Game/objects/models/cubicle_pCube7.cubicle_pCube7' ref from Metadata '/Game/environment/cubicle/cubicle_pCube7.PackageMetaData'
+[2018.10.03-04.52.20:123][984]LogMetaData: Removing '/Game/objects/models/cubicle_pCube8.cubicle_pCube8' ref from Metadata '/Game/environment/cubicle/cubicle_pCube8.PackageMetaData'
+[2018.10.03-04.52.20:131][984]LogMetaData: Removing '/Game/objects/models/cubicle_pCube9_Dup_3.cubicle_pCube9_Dup_3' ref from Metadata '/Game/environment/cubicle/cubicle_pCube9_Dup_3.PackageMetaData'
+[2018.10.03-04.52.20:140][984]LogMetaData: Removing '/Game/objects/models/cubicle_SmartCombine_1.cubicle_SmartCombine_1' ref from Metadata '/Game/environment/cubicle/cubicle_SmartCombine_1.PackageMetaData'
+[2018.10.03-04.52.20:149][984]LogMetaData: Removing '/Game/objects/models/keyboard.keyboard' ref from Metadata '/Game/environment/cubicle/keyboard.PackageMetaData'
+[2018.10.03-04.52.20:197][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/models/cubicle_pCube4" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/cubicle_pCube4.uasset" SILENT=true
+[2018.10.03-04.52.20:212][984]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/cubicle_pCube4594A2A7842B887F8F8F9E7911CC62887.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/cubicle_pCube4.uasset'
+[2018.10.03-04.52.20:221][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/environment/cubicle/cubicle_pCube4" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/cubicle_pCube4.uasset" SILENT=true
+[2018.10.03-04.52.20:235][984]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/cubicle_pCube4449FAAEF4460DB86D8EBDC99D86D4BEF.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/cubicle_pCube4.uasset'
+[2018.10.03-04.52.20:253][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/models/cubicle_pCube5" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/cubicle_pCube5.uasset" SILENT=true
+[2018.10.03-04.52.20:268][984]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/cubicle_pCube5DB5C42804AA84D8F496ED0A5E1FFDC01.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/cubicle_pCube5.uasset'
+[2018.10.03-04.52.20:273][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/environment/cubicle/cubicle_pCube5" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/cubicle_pCube5.uasset" SILENT=true
+[2018.10.03-04.52.20:299][984]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/cubicle_pCube5345BD44940B5D7FD5B82359A0BCB4C3C.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/cubicle_pCube5.uasset'
+[2018.10.03-04.52.20:318][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/models/cubicle_pCube6" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/cubicle_pCube6.uasset" SILENT=true
+[2018.10.03-04.52.20:332][984]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/cubicle_pCube6274C5938439B7B9B27A33DB7A161093D.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/cubicle_pCube6.uasset'
+[2018.10.03-04.52.20:338][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/environment/cubicle/cubicle_pCube6" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/cubicle_pCube6.uasset" SILENT=true
+[2018.10.03-04.52.20:352][984]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/cubicle_pCube606B258FC4B7E0F2B460F88958D6DCE83.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/cubicle_pCube6.uasset'
+[2018.10.03-04.52.20:369][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/models/cubicle_pCube7" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/cubicle_pCube7.uasset" SILENT=true
+[2018.10.03-04.52.20:383][984]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/cubicle_pCube7CA295B924F61A19FE2EF37ADB6059F3F.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/cubicle_pCube7.uasset'
+[2018.10.03-04.52.20:389][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/environment/cubicle/cubicle_pCube7" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/cubicle_pCube7.uasset" SILENT=true
+[2018.10.03-04.52.20:402][984]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/cubicle_pCube73A24A9A8402EAD8E1A739998FCA6A4C2.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/cubicle_pCube7.uasset'
+[2018.10.03-04.52.20:419][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/models/cubicle_pCube8" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/cubicle_pCube8.uasset" SILENT=true
+[2018.10.03-04.52.20:433][984]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/cubicle_pCube86E4DCBC6477BA7E4584E3DBE437DD917.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/cubicle_pCube8.uasset'
+[2018.10.03-04.52.20:440][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/environment/cubicle/cubicle_pCube8" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/cubicle_pCube8.uasset" SILENT=true
+[2018.10.03-04.52.20:455][984]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/cubicle_pCube86C1DAC3946808D1C09D4B98E4E413ADA.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/cubicle_pCube8.uasset'
+[2018.10.03-04.52.20:474][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/models/cubicle_pCube9_Dup_3" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/cubicle_pCube9_Dup_3.uasset" SILENT=true
+[2018.10.03-04.52.20:490][984]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/cubicle_pCube9_Dup_3C796F0D74412EA53C5AEA0AAFC185F36.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/cubicle_pCube9_Dup_3.uasset'
+[2018.10.03-04.52.20:495][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/environment/cubicle/cubicle_pCube9_Dup_3" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/cubicle_pCube9_Dup_3.uasset" SILENT=true
+[2018.10.03-04.52.20:509][984]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/cubicle_pCube9_Dup_3D3D3019441D327EBF07274B172EE9620.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/cubicle_pCube9_Dup_3.uasset'
+[2018.10.03-04.52.20:526][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/models/cubicle_SmartCombine_1" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/cubicle_SmartCombine_1.uasset" SILENT=true
+[2018.10.03-04.52.20:541][984]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/cubicle_SmartCombine_1C40129B24A8A024F3D2451B66047F455.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/cubicle_SmartCombine_1.uasset'
+[2018.10.03-04.52.20:548][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/environment/cubicle/cubicle_SmartCombine_1" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/cubicle_SmartCombine_1.uasset" SILENT=true
+[2018.10.03-04.52.20:563][984]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/cubicle_SmartCombine_1E510F44942DFACCD300E419FDED0ED1B.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/cubicle_SmartCombine_1.uasset'
+[2018.10.03-04.52.20:581][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/models/keyboard" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/keyboard.uasset" SILENT=true
+[2018.10.03-04.52.20:595][984]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/keyboard089A292043633C276712DF93D1A06C72.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/keyboard.uasset'
+[2018.10.03-04.52.20:600][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/environment/cubicle/keyboard" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/keyboard.uasset" SILENT=true
+[2018.10.03-04.52.20:616][984]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/keyboardC5D9F52A4E7A854B101953B37F158158.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/keyboard.uasset'
+[2018.10.03-04.52.27:106][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/materials/computer_Mat" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/materials/computer_Mat.uasset" SILENT=true
+[2018.10.03-04.52.27:122][495]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/computer_MatF5A7ACD048A89B5420EB2F997E4CDAEA.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/materials/computer_Mat.uasset'
+[2018.10.03-04.52.27:127][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/environment/cubicle/computer_Mat" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/computer_Mat.uasset" SILENT=true
+[2018.10.03-04.52.27:141][495]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/computer_Mat083A757E40B4259F53561DA3E2DE2638.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/computer_Mat.uasset'
+[2018.10.03-04.52.27:158][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/materials/cubicle_Mat" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/materials/cubicle_Mat.uasset" SILENT=true
+[2018.10.03-04.52.27:173][495]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/cubicle_MatA860EF23476E787E63EBA1B11EE0466F.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/materials/cubicle_Mat.uasset'
+[2018.10.03-04.52.27:179][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/environment/cubicle/cubicle_Mat" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/cubicle_Mat.uasset" SILENT=true
+[2018.10.03-04.52.27:193][495]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/cubicle_MatA1D7D3A84120349002E270BD4053C3B5.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/cubicle_Mat.uasset'
+[2018.10.03-04.52.27:211][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/materials/monitorBackground_Mat" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/materials/monitorBackground_Mat.uasset" SILENT=true
+[2018.10.03-04.52.27:232][495]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/monitorBackground_Mat59589BFC42AFE412FC39419FA5FD3727.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/materials/monitorBackground_Mat.uasset'
+[2018.10.03-04.52.27:238][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/environment/cubicle/monitorBackground_Mat" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/monitorBackground_Mat.uasset" SILENT=true
+[2018.10.03-04.52.27:252][495]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/monitorBackground_Mat96B85FFA48AE18E3DF1356B6004B5AD7.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/monitorBackground_Mat.uasset'
+[2018.10.03-04.52.34:708][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/materials/phong1" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/materials/phong1.uasset" SILENT=true
+[2018.10.03-04.52.34:726][ 75]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/phong1BDDE79FF4D4380D437ED548C1123665A.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/materials/phong1.uasset'
+[2018.10.03-04.52.34:742][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/materials/screen_Mat" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/materials/screen_Mat.uasset" SILENT=true
+[2018.10.03-04.52.34:758][ 75]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/screen_Mat43337BC04650E359AB44C8A0BC615AA1.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/materials/screen_Mat.uasset'
+[2018.10.03-04.52.34:775][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/materials/toolbar_Mat" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/materials/toolbar_Mat.uasset" SILENT=true
+[2018.10.03-04.52.34:800][ 75]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/toolbar_Mat702F3FD24627C2BE2258D8ABC5017063.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/materials/toolbar_Mat.uasset'
+[2018.10.03-04.52.34:805][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/environment/cubicle/toolbar_Mat" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/toolbar_Mat.uasset" SILENT=true
+[2018.10.03-04.52.34:821][ 75]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/toolbar_MatE55A9EFE4D6C32969E5375A311E79368.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/toolbar_Mat.uasset'
+[2018.10.03-04.52.35:046][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/models/cubicle_pCube4" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/cubicle_pCube4.uasset" SILENT=true
+[2018.10.03-04.52.35:059][ 75]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/cubicle_pCube4D4F4FA644CE105368C5FFEBA04EDDBB4.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/cubicle_pCube4.uasset'
+[2018.10.03-04.52.35:061][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/models/cubicle_pCube5" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/cubicle_pCube5.uasset" SILENT=true
+[2018.10.03-04.52.35:072][ 75]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/cubicle_pCube54BD8F3B94DC5CBB3919D0C9F4107749D.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/cubicle_pCube5.uasset'
+[2018.10.03-04.52.35:075][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/models/cubicle_pCube6" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/cubicle_pCube6.uasset" SILENT=true
+[2018.10.03-04.52.35:087][ 75]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/cubicle_pCube60338FD644B98302C30FE62817D6A01C4.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/cubicle_pCube6.uasset'
+[2018.10.03-04.52.35:090][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/models/cubicle_pCube7" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/cubicle_pCube7.uasset" SILENT=true
+[2018.10.03-04.52.35:100][ 75]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/cubicle_pCube7AC70F7B34722C2E298FC1BA9B4596D6B.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/cubicle_pCube7.uasset'
+[2018.10.03-04.52.35:103][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/models/cubicle_pCube8" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/cubicle_pCube8.uasset" SILENT=true
+[2018.10.03-04.52.35:115][ 75]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/cubicle_pCube8199D9BA3460ADAE76E4720BD76EC725A.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/cubicle_pCube8.uasset'
+[2018.10.03-04.52.35:119][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/models/cubicle_pCube9_Dup_3" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/cubicle_pCube9_Dup_3.uasset" SILENT=true
+[2018.10.03-04.52.35:131][ 75]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/cubicle_pCube9_Dup_362E5382343427CBE29F0FA8888E7FA11.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/cubicle_pCube9_Dup_3.uasset'
+[2018.10.03-04.52.35:134][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/models/cubicle_SmartCombine_1" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/cubicle_SmartCombine_1.uasset" SILENT=true
+[2018.10.03-04.52.35:145][ 75]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/cubicle_SmartCombine_18B5031AC47D40D3C66E3C2BC7A96774B.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/cubicle_SmartCombine_1.uasset'
+[2018.10.03-04.52.35:149][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/models/keyboard" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/keyboard.uasset" SILENT=true
+[2018.10.03-04.52.35:161][ 75]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/keyboardBBEA1CEB432A646D977CFC9A4A11AF6D.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/models/keyboard.uasset'
+[2018.10.03-04.52.43:290][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/materials/Wirecutter_Mat" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/materials/Wirecutter_Mat.uasset" SILENT=true
+[2018.10.03-04.52.43:305][807]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/Wirecutter_MatBF7FBFBE4DF91C4C33C0BBA160CFD934.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/materials/Wirecutter_Mat.uasset'
+[2018.10.03-04.52.43:321][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/materials/mousepad_Mat" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/materials/mousepad_Mat.uasset" SILENT=true
+[2018.10.03-04.52.43:336][807]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/mousepad_MatC5EF6B594E19172D924AD2B8403051EF.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/materials/mousepad_Mat.uasset'
+[2018.10.03-04.52.43:342][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/environment/cubicle/mousepad_Mat" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/mousepad_Mat.uasset" SILENT=true
+[2018.10.03-04.52.43:356][807]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/mousepad_Mat4615A2A0457A714002383E9878C57788.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/mousepad_Mat.uasset'
+[2018.10.03-04.52.43:372][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/materials/mouse_Mat" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/materials/mouse_Mat.uasset" SILENT=true
+[2018.10.03-04.52.43:386][807]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/mouse_MatB13F0F7B4B8A91BA99CF05A31FFC40D7.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/materials/mouse_Mat.uasset'
+[2018.10.03-04.52.43:617][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blueprints/WireCutterObject" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/blueprints/WireCutterObject.uasset" SILENT=true
+[2018.10.03-04.52.43:646][807]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/WireCutterObjectA9209FCB4EEB868E1AB2FA8E76D42E33.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/blueprints/WireCutterObject.uasset'
+[2018.10.03-04.52.43:662][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Computer_Mouse_Actor_BP" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/Computer_Mouse_Actor_BP.uasset" SILENT=true
+[2018.10.03-04.52.43:701][807]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/Computer_Mouse_Actor_BPC958A6854B1AF11F81007F9C6FFAFD73.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/Computer_Mouse_Actor_BP.uasset'
+[2018.10.03-04.52.47:658][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/textures/Wirecutter" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/textures/Wirecutter.uasset" SILENT=true
+[2018.10.03-04.52.47:667][212]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/WirecutterD07A65E745ABA2B9D594B881559CBEF5.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/textures/Wirecutter.uasset'
+[2018.10.03-04.52.47:673][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/textures/mouse" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/textures/mouse.uasset" SILENT=true
+[2018.10.03-04.52.47:679][212]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/mouseEE01E5A14EA34FC93D8E4F816958BF64.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/textures/mouse.uasset'
+[2018.10.03-04.52.47:692][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/textures/NewTextureRenderTarget2D" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/textures/NewTextureRenderTarget2D.uasset" SILENT=true
+[2018.10.03-04.52.47:702][212]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/NewTextureRenderTarget2D74D587A24143D999E9FE5C8AD47F165B.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/textures/NewTextureRenderTarget2D.uasset'
+[2018.10.03-04.52.47:720][212]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/NewTextureRenderTarget2DED2C17CE4D89AC3FFC2A4490FC4DC83F.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/environment/cubicle/NewTextureRenderTarget2D.uasset'
+[2018.10.03-04.52.47:944][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/materials/Wirecutter_Mat" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/materials/Wirecutter_Mat.uasset" SILENT=true
+[2018.10.03-04.52.47:960][212]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/Wirecutter_MatB657C3D44267A8887D61A4AAA56F251D.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/materials/Wirecutter_Mat.uasset'
+[2018.10.03-04.52.47:964][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/objects/materials/mouse_Mat" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/materials/mouse_Mat.uasset" SILENT=true
+[2018.10.03-04.52.47:979][212]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/mouse_Mat68EC61384C3C4DD5DB22879D048E0403.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/objects/materials/mouse_Mat.uasset'
+[2018.10.03-04.53.17:665][792]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.03-04.53.20:346][876]LogSlate: Window 'Save Content' being destroyed
+[2018.10.03-04.53.20:441][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/levels/Prototype" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/levels/Prototype.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.03-04.53.20:579][876]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/Prototype8F58E06846A431C046D6098D826713E5.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/levels/Prototype.umap'
+[2018.10.03-04.53.20:613][876]LogFileHelpers: Saving map 'Prototype' took 0.236
+[2018.10.03-04.53.31:230][471]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.03-04.53.55:210][791]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.03-04.53.56:198][882]MapCheck: New page: Map Check
+[2018.10.03-04.53.56:229][882]Cmd: MAP REBUILD ALLVISIBLE
+[2018.10.03-04.53.56:229][882]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.10.03-04.53.56:341][882]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2018.10.03-04.53.56:348][882]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2018.10.03-04.53.56:353][882]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.03-04.53.56:353][882]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.10.03-04.53.56:353][882]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy phong1, compiling. 
+[2018.10.03-04.53.56:359][882]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy mousepad_Mat, compiling. 
+[2018.10.03-04.53.56:366][882]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy computer_Mat, compiling. 
+[2018.10.03-04.53.56:372][882]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy screen_Mat, compiling. 
+[2018.10.03-04.53.56:378][882]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy cubicle_Mat, compiling. 
+[2018.10.03-04.53.56:383][882]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.10.03-04.53.56:389][882]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.10.03-04.53.56:390][882]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.10.03-04.53.56:390][882]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy monitorBackground_Mat, compiling. 
+[2018.10.03-04.53.56:397][882]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy toolbar_Mat, compiling. 
+[2018.10.03-04.53.56:405][882]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy mouse_Mat, compiling. 
+[2018.10.03-04.53.56:413][882]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultTextMaterialOpaque, compiling. 
+[2018.10.03-04.53.56:422][882]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Wirecutter_Mat, compiling. 
+[2018.10.03-04.53.57:429][882]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.10.03-04.53.57:429][882]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.03-04.53.57:429][882]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.10.03-04.53.57:429][882]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.10.03-04.53.57:429][882]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.10.03-04.53.57:429][882]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.10.03-04.53.57:429][882]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.10.03-04.53.57:429][882]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.03-04.53.57:429][882]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.10.03-04.53.57:429][882]TextureStreamingBuild: Display: Compiling optional shaders took 1.093 seconds.
+[2018.10.03-04.53.57:464][882]LogLevel: Display: Export Material TexCoord Scales took 0.035 seconds.
+[2018.10.03-04.53.57:482][882]TextureStreamingBuild: Display: Build Texture Streaming took 0.017 seconds.
+[2018.10.03-04.53.57:499][882]LightingResults: New page: Lighting Build - Oct 2, 2018, 8:53:57 PM
+[2018.10.03-04.53.57:567][882]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.10.03-04.53.57:666][882]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.10.03-04.53.57:675][882]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.10.03-04.53.58:195][882]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.10.03-04.53.58:195][882]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3628
+[2018.10.03-04.54.00:983][882]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2018.10.03-04.54.00:983][882]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.10.03-04.54.00:983][882]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.10.03-04.54.00:983][882]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.10.03-04.54.00:983][882]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.10.03-04.54.00:983][882]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.10.03-04.54.01:175][882]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.10.03-04.54.01:175][882]MapCheck: New page: Prototype - Oct 2, 2018, 8:54:01 PM
+[2018.10.03-04.54.01:236][882]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.891ms to complete.
+[2018.10.03-04.54.01:259][882]LogEditorBuildUtils: Build time 0:05
+[2018.10.03-04.54.03:286][890]LightingResults: Warning: cubicle_pCube9_Dup_3 Object has overlapping UVs.
+[2018.10.03-04.54.03:289][890]LightingResults: cubicle_pCube9_Dup_3 Lightmap UV are overlapping by 27.4%. Please adjust content - Enable Error Coloring to visualize.
+[2018.10.03-04.54.03:609][891]LightingResults: Warning: cubicle_pCube9_Dup_3 Object has overlapping UVs.
+[2018.10.03-04.54.03:609][891]LightingResults: cubicle_pCube9_Dup_3 Lightmap UV are overlapping by 27.4%. Please adjust content - Enable Error Coloring to visualize.
+[2018.10.03-04.54.03:609][891]LightingResults: Warning: cubicle_pCube9_Dup_3 Object has overlapping UVs.
+[2018.10.03-04.54.03:609][891]LightingResults: cubicle_pCube9_Dup_3 Lightmap UV are overlapping by 27.4%. Please adjust content - Enable Error Coloring to visualize.
+[2018.10.03-04.54.03:609][891]LightingResults: Warning: cubicle_pCube9_Dup_3 Object has overlapping UVs.
+[2018.10.03-04.54.03:609][891]LightingResults: cubicle_pCube9_Dup_3 Lightmap UV are overlapping by 27.4%. Please adjust content - Enable Error Coloring to visualize.
+[2018.10.03-04.54.03:950][892]LightingResults: Warning: keyboard Object has overlapping UVs.
+[2018.10.03-04.54.03:950][892]LightingResults: keyboard Lightmap UV are overlapping by 23.7%. Please adjust content - Enable Error Coloring to visualize.
+[2018.10.03-04.54.04:278][893]Job is a success!
+[2018.10.03-04.54.04:727][894]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.040s
+[2018.10.03-04.54.04:727][894]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2018.10.03-04.54.04:727][894]LogVolumetricLightmapImport:      BrickData 40x5x5 = 0.0Mb
+[2018.10.03-04.54.04:727][894]LogVolumetricLightmapImport:      Bricks at Level
+[2018.10.03-04.54.04:727][894]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2018.10.03-04.54.04:727][894]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2018.10.03-04.54.04:727][894]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2018.10.03-04.54.05:016][894]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2018.10.03-04.54.05:016][894]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2018.10.03-04.54.05:016][894]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256)
+[2018.10.03-04.54.05:016][894]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256)
+[2018.10.03-04.54.05:016][894]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2018.10.03-04.54.05:016][894]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2018.10.03-04.54.05:098][894]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2018.10.03-04.54.05:098][894]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 256X64)
+[2018.10.03-04.54.05:098][894]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X256)
+[2018.10.03-04.54.05:158][894]Lightmass on DESKTOP-QQJR9T6: 3.09 sec total, 177 ms importing, 17 ms setup, 438 ms photons, 2.43 sec processing, 0 ms extra exporting [39/39 mappings]. Threads: 16.8 sec total, 4.71 sec processing.
+[2018.10.03-04.54.05:191][894]LogStaticLightingSystem: Illumination: 7.33 sec (266 ms encoding lightmaps, 75 ms encoding shadowmaps)
+[2018.10.03-04.54.05:191][894]LogStaticLightingSystem: Lightmap texture memory:  2.1 MB (2.1 MB streaming, 0.0 MB non-streaming), 6 textures
+[2018.10.03-04.54.05:191][894]LogStaticLightingSystem: Shadowmap texture memory: 1.4 MB (1.4 MB streaming, 0.0 MB non-streaming), 3 textures
+[2018.10.03-04.54.10:007][894]DumpUnbuiltLightIteractions
+[2018.10.03-04.54.10:007][894]Lights with unbuilt interactions: 0
+[2018.10.03-04.54.10:007][894]
+[2018.10.03-04.54.10:007][894]Primitives with unbuilt interactions: 0
+[2018.10.03-04.54.10:114][895]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.10.03-04.54.10:114][895]MapCheck: New page: Prototype - Oct 2, 2018, 8:54:10 PM
+[2018.10.03-04.54.10:180][895]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 65.576ms to complete.
+[2018.10.03-04.54.26:348][951]LogSlate: Window 'Message Log' being destroyed
+[2018.10.03-04.54.26:351][951]LogSlate: Window 'Message Log' being destroyed
+[2018.10.03-04.54.46:347][504]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.03-04.54.51:393][864]LogSlate: Window 'Save Content' being destroyed
+[2018.10.03-04.54.51:483][864]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/levels/Prototype" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/levels/Prototype.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.03-04.54.51:642][864]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/PrototypeC1DA88214ED303AADD0353A2C2D343F7.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/levels/Prototype.umap'
+[2018.10.03-04.54.51:673][864]LogFileHelpers: Saving map 'Prototype' took 0.248
+[2018.10.03-04.54.51:674][864]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/levels/Prototype_BuiltData" FILE="../../../../../GitHub/OfficeGame/OfficeProject/Content/levels/Prototype_BuiltData.uasset" SILENT=true
+[2018.10.03-04.54.51:765][864]LogSavePackage: Moving '../../../../../GitHub/OfficeGame/OfficeProject/Saved/Prototype_BuiltDataFBC26E77477F40BEEFF996A084EE6B7C.tmp' to '../../../../../GitHub/OfficeGame/OfficeProject/Content/levels/Prototype_BuiltData.uasset'
+[2018.10.03-04.54.51:843][864]LogSlate: Window 'OfficeProject - Unreal Editor' being destroyed
+[2018.10.03-04.54.51:843][864]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.03-04.54.52:035][865]Cmd: QUIT_EDITOR
+[2018.10.03-04.54.52:071][865]LogExit: Preparing to exit.
+[2018.10.03-04.54.52:436][865]LogExit: Editor shut down
+[2018.10.03-04.54.52:437][865]LogExit: Transaction tracking system shut down
+[2018.10.03-04.54.52:666][865]LogExit: Object subsystem successfully closed.
+[2018.10.03-04.54.52:683][865]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.10.03-04.54.52:688][865]LogD3D11RHI: Shutdown
+[2018.10.03-04.54.52:688][865]LogD3D11RHI: CleanupD3DDevice
+[2018.10.03-04.54.52:693][865]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.10.03-04.54.52:706][865]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2018.10.03-04.54.52:706][865]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2018.10.03-04.54.52:706][865]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2018.10.03-04.54.52:707][865]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2018.10.03-04.54.52:707][865]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2018.10.03-04.54.52:707][865]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2018.10.03-04.54.52:707][865]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (600)
+[2018.10.03-04.54.52:707][865]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2018.10.03-04.54.52:707][865]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2018.10.03-04.54.52:707][865]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2018.10.03-04.54.52:707][865]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2018.10.03-04.54.52:707][865]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2018.10.03-04.54.52:707][865]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2018.10.03-04.54.52:707][865]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2018.10.03-04.54.52:707][865]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2018.10.03-04.54.52:707][865]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2018.10.03-04.54.52:708][865]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2018.10.03-04.54.52:708][865]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2018.10.03-04.54.52:708][865]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2018.10.03-04.54.52:708][865]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2018.10.03-04.54.52:708][865]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2018.10.03-04.54.52:708][865]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2018.10.03-04.54.52:708][865]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2018.10.03-04.54.52:708][865]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2018.10.03-04.54.52:708][865]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2018.10.03-04.54.52:708][865]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2018.10.03-04.54.52:708][865]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2018.10.03-04.54.52:708][865]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2018.10.03-04.54.52:708][865]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2018.10.03-04.54.52:708][865]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2018.10.03-04.54.52:708][865]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2018.10.03-04.54.52:708][865]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2018.10.03-04.54.52:708][865]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2018.10.03-04.54.52:708][865]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2018.10.03-04.54.52:708][865]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2018.10.03-04.54.52:708][865]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2018.10.03-04.54.52:708][865]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2018.10.03-04.54.52:708][865]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2018.10.03-04.54.52:708][865]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2018.10.03-04.54.52:708][865]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2018.10.03-04.54.52:708][865]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2018.10.03-04.54.52:708][865]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2018.10.03-04.54.52:708][865]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2018.10.03-04.54.52:708][865]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2018.10.03-04.54.52:708][865]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2018.10.03-04.54.52:709][865]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2018.10.03-04.54.52:709][865]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2018.10.03-04.54.52:709][865]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2018.10.03-04.54.52:709][865]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2018.10.03-04.54.52:709][865]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2018.10.03-04.54.52:709][865]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2018.10.03-04.54.52:709][865]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2018.10.03-04.54.52:709][865]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2018.10.03-04.54.53:445][865]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2018.10.03-04.54.53:445][865]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2018.10.03-04.54.53:445][865]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2018.10.03-04.54.53:446][865]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2018.10.03-04.54.53:446][865]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2018.10.03-04.54.53:446][865]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2018.10.03-04.54.53:446][865]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2018.10.03-04.54.53:446][865]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2018.10.03-04.54.53:446][865]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2018.10.03-04.54.53:446][865]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2018.10.03-04.54.53:446][865]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2018.10.03-04.54.53:446][865]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2018.10.03-04.54.53:446][865]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2018.10.03-04.54.53:447][865]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2018.10.03-04.54.53:447][865]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2018.10.03-04.54.53:447][865]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2018.10.03-04.54.53:448][865]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2018.10.03-04.54.53:448][865]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2018.10.03-04.54.53:448][865]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2018.10.03-04.54.53:448][865]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2018.10.03-04.54.53:448][865]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2018.10.03-04.54.53:448][865]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2018.10.03-04.54.53:515][865]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2018.10.03-04.54.53:515][865]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2018.10.03-04.54.53:515][865]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2018.10.03-04.54.53:515][865]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2018.10.03-04.54.53:515][865]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2018.10.03-04.54.53:515][865]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2018.10.03-04.54.53:515][865]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2018.10.03-04.54.53:516][865]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2018.10.03-04.54.53:516][865]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2018.10.03-04.54.53:516][865]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2018.10.03-04.54.53:516][865]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2018.10.03-04.54.53:516][865]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2018.10.03-04.54.53:517][865]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2018.10.03-04.54.53:517][865]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2018.10.03-04.54.53:517][865]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2018.10.03-04.54.53:517][865]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2018.10.03-04.54.53:517][865]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2018.10.03-04.54.53:517][865]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2018.10.03-04.54.53:517][865]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2018.10.03-04.54.53:517][865]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2018.10.03-04.54.53:517][865]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2018.10.03-04.54.53:517][865]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2018.10.03-04.54.53:517][865]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2018.10.03-04.54.53:517][865]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.10.03-04.54.53:517][865]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.10.03-04.54.53:517][865]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.10.03-04.54.53:517][865]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.10.03-04.54.53:517][865]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.10.03-04.54.53:518][865]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.10.03-04.54.53:518][865]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.10.03-04.54.53:518][865]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2018.10.03-04.54.53:518][865]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2018.10.03-04.54.53:524][865]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2018.10.03-04.54.53:524][865]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2018.10.03-04.54.53:524][865]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2018.10.03-04.54.53:524][865]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2018.10.03-04.54.53:524][865]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2018.10.03-04.54.53:524][865]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2018.10.03-04.54.53:524][865]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2018.10.03-04.54.53:524][865]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2018.10.03-04.54.53:524][865]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2018.10.03-04.54.53:524][865]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2018.10.03-04.54.53:524][865]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2018.10.03-04.54.53:524][865]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2018.10.03-04.54.53:524][865]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2018.10.03-04.54.53:524][865]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2018.10.03-04.54.53:524][865]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2018.10.03-04.54.53:524][865]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2018.10.03-04.54.53:525][865]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2018.10.03-04.54.53:525][865]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2018.10.03-04.54.53:531][865]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2018.10.03-04.54.53:531][865]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2018.10.03-04.54.53:531][865]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2018.10.03-04.54.53:531][865]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2018.10.03-04.54.53:531][865]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2018.10.03-04.54.53:531][865]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2018.10.03-04.54.53:531][865]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2018.10.03-04.54.53:531][865]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2018.10.03-04.54.53:531][865]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2018.10.03-04.54.53:531][865]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2018.10.03-04.54.53:531][865]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2018.10.03-04.54.53:531][865]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2018.10.03-04.54.53:532][865]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2018.10.03-04.54.53:532][865]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2018.10.03-04.54.53:533][865]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2018.10.03-04.54.53:533][865]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2018.10.03-04.54.53:533][865]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2018.10.03-04.54.53:533][865]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2018.10.03-04.54.53:533][865]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2018.10.03-04.54.53:533][865]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2018.10.03-04.54.53:533][865]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2018.10.03-04.54.53:533][865]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2018.10.03-04.54.53:533][865]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2018.10.03-04.54.53:533][865]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2018.10.03-04.54.53:533][865]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2018.10.03-04.54.53:533][865]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2018.10.03-04.54.53:533][865]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2018.10.03-04.54.53:533][865]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2018.10.03-04.54.53:534][865]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2018.10.03-04.54.53:534][865]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2018.10.03-04.54.53:534][865]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2018.10.03-04.54.53:534][865]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2018.10.03-04.54.53:534][865]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.10.03-04.54.53:534][865]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.10.03-04.54.53:534][865]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.10.03-04.54.53:534][865]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.10.03-04.54.53:534][865]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.10.03-04.54.53:534][865]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.10.03-04.54.53:534][865]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.10.03-04.54.53:534][865]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.10.03-04.54.53:534][865]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.10.03-04.54.53:635][865]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.10.03-04.54.53:736][865]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.10.03-04.54.53:736][865]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.10.03-04.54.53:736][865]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.10.03-04.54.53:736][865]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.10.03-04.54.53:736][865]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.10.03-04.54.53:736][865]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.10.03-04.54.53:736][865]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.10.03-04.54.53:737][865]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.10.03-04.54.53:737][865]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.10.03-04.54.53:737][865]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.10.03-04.54.53:737][865]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.10.03-04.54.53:737][865]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.10.03-04.54.53:738][865]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.10.03-04.54.53:738][865]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.10.03-04.54.53:738][865]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.10.03-04.54.53:738][865]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.10.03-04.54.53:738][865]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.10.03-04.54.53:738][865]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.10.03-04.54.53:740][865]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.10.03-04.54.53:746][865]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.10.03-04.54.53:746][865]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.10.03-04.54.53:746][865]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.10.03-04.54.53:746][865]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.10.03-04.54.53:746][865]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.10.03-04.54.53:746][865]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.10.03-04.54.53:746][865]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.10.03-04.54.53:746][865]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.10.03-04.54.53:746][865]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.10.03-04.54.53:746][865]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.10.03-04.54.53:746][865]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.10.03-04.54.53:746][865]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.10.03-04.54.53:746][865]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.10.03-04.54.53:746][865]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.10.03-04.54.53:747][865]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.10.03-04.54.53:747][865]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.10.03-04.54.53:747][865]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.10.03-04.54.53:747][865]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.10.03-04.54.53:747][865]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.10.03-04.54.53:747][865]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.10.03-04.54.53:748][865]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.10.03-04.54.53:748][865]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.10.03-04.54.53:749][865]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.10.03-04.54.53:749][865]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.10.03-04.54.53:749][865]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.10.03-04.54.53:749][865]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.10.03-04.54.53:749][865]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.10.03-04.54.53:749][865]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.10.03-04.54.53:749][865]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.10.03-04.54.53:749][865]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.10.03-04.54.53:749][865]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.10.03-04.54.53:749][865]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.10.03-04.54.53:749][865]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.10.03-04.54.53:749][865]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.10.03-04.54.53:749][865]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.10.03-04.54.53:749][865]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.10.03-04.54.53:749][865]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.10.03-04.54.53:749][865]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.10.03-04.54.53:805][865]LogDerivedDataCache: Shutdown
+[2018.10.03-04.54.53:805][865]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.10.03-04.54.53:805][865]LogXGEController: Cleaning working directory: C:/Users/Djano/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.03-04.54.53:806][865]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.10.03-04.54.53:806][865]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.10.03-04.54.53:806][865]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.10.03-04.54.53:806][865]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.10.03-04.54.53:806][865]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.10.03-04.54.53:806][865]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.10.03-04.54.53:806][865]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.10.03-04.54.53:806][865]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.10.03-04.54.53:807][865]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.10.03-04.54.53:807][865]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.10.03-04.54.53:807][865]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.10.03-04.54.53:807][865]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.10.03-04.54.53:807][865]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.10.03-04.54.53:807][865]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.10.03-04.54.53:807][865]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.10.03-04.54.53:807][865]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.10.03-04.54.53:807][865]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.10.03-04.54.53:807][865]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.10.03-04.54.53:807][865]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.10.03-04.54.53:808][865]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.10.03-04.54.53:808][865]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.10.03-04.54.53:808][865]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.10.03-04.54.53:810][865]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.10.03-04.54.53:810][865]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.10.03-04.54.53:812][865]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.10.03-04.54.53:813][865]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.10.03-04.54.53:837][865]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.10.03-04.54.53:837][865]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.10.03-04.54.53:837][865]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.10.03-04.54.53:837][865]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.10.03-04.54.53:838][865]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.10.03-04.54.53:838][865]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.10.03-04.54.53:838][865]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.10.03-04.54.53:838][865]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.10.03-04.54.53:838][865]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.10.03-04.54.53:838][865]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.10.03-04.54.53:838][865]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.10.03-04.54.53:838][865]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.10.03-04.54.53:838][865]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.10.03-04.54.53:838][865]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.10.03-04.54.53:838][865]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.10.03-04.54.53:838][865]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.10.03-04.54.53:838][865]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.10.03-04.54.53:838][865]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.10.03-04.54.53:839][865]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.10.03-04.54.53:840][865]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.10.03-04.54.53:863][865]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.10.03-04.54.53:863][865]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.10.03-04.54.53:863][865]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9AC483AF-4786-520D-0B75-C198778D1BAC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=c95bfd7c43fd015875aec09d4abc4b0c%7C778d86e7d3954571b72043837bb1b12d%7Ca40add05-0635-4776-a1d0-a9f87cfaef3a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.10.03-04.54.53:896][865]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.10.03-04.54.53:898][865]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.10.03-04.54.53:898][865]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.10.03-04.54.53:898][865]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.10.03-04.54.53:898][865]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.10.03-04.54.53:898][865]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.10.03-04.54.53:898][865]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.10.03-04.54.53:898][865]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.10.03-04.54.53:898][865]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.10.03-04.54.53:898][865]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.10.03-04.54.53:898][865]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.10.03-04.54.53:898][865]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.10.03-04.54.53:898][865]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.10.03-04.54.53:898][865]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.10.03-04.54.53:898][865]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.10.03-04.54.53:898][865]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.10.03-04.54.53:898][865]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.10.03-04.54.53:898][865]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.10.03-04.54.53:898][865]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.10.03-04.54.53:898][865]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.10.03-04.54.53:898][865]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.10.03-04.54.53:898][865]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.10.03-04.54.53:898][865]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.10.03-04.54.53:898][865]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.10.03-04.54.53:898][865]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.10.03-04.54.53:898][865]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.10.03-04.54.53:898][865]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.10.03-04.54.53:898][865]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.10.03-04.54.53:898][865]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.10.03-04.54.53:899][865]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.10.03-04.54.53:903][865]LogExit: Exiting.
+[2018.10.03-04.54.53:915][865]Log file closed, 10/03/18 00:54:53
